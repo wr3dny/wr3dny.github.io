@@ -1,198 +1,108 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
+
+    <style>
+      /* Define the grid container */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+
+      /* Define the grid items */
+      .grid-item {
+        background-color: #f2f2f2;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <h3>Wishlist</h3>
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Clickable Links with Target Preview</title>
-      </head>
-      <body>
-        <h3>Wishlist</h3>
 
-        <div>
-          <a
-            href="https://zklockow.pl/lego-21042-architecture-statua-wolnosci"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-76989-horizon-forbidden-west-zyraf"
-            target="_blank"
-            >LEGO Forbidden West - Żyraf</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-76223-marvel-nanorekawica"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-43230-disney-kamera-walta-disneya"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-76251-marvel-helm-star-lorda"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-21325-ideas-sredniowieczna-kuznia"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-21327-ideas-maszyna-do-pisania"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-21335-ideas-zmechanizowana-latarnia"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-76405-harry-potter-ekspres-do-hogwartu-edycja-kolekcjonerska"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a href="https://zklockow.pl/lego-10276-koloseum" target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-75192-star-wars-sokol-millennium"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-75313-star-wars-at-at"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-10293-wizyta-swietego-mikolaja"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-10325-icons-gorska-chata"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-21342-ideas-kolekcja-owadow"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-        <div>
-          <a
-            href="https://zklockow.pl/lego-75329-star-wars-diorama-szturm-na-gwiazde-smierci"
-            target="_blank"
-            >LEGO Architecture Statue of Liberty</a
-          >
-          <br />
-        </div>
-      </body>
-    </html>
+    <div class="grid-container">
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-21042-architecture-statua-wolnosci"
+          target="_blank"
+        >
+        </a>
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-76989-horizon-forbidden-west-zyraf"
+          target="_blank"
+          >Forbidden West - Żyraf</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-76223-marvel-nanorekawica"
+          target="_blank"
+          >Marvel Nanorękwaica</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-43230-disney-kamera-walta-disneya"
+          target="_blank"
+          >Kamera Walta Disneya</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-76251-marvel-helm-star-lorda"
+          target="_blank"
+          >Hełm Starlorda</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-21325-ideas-sredniowieczna-kuznia"
+          target="_blank"
+          >Średniowieczna kuźnia</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-21327-ideas-maszyna-do-pisania"
+          target="_blank"
+          >Maszyna do pisania</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-21335-ideas-zmechanizowana-latarnia"
+          target="_blank"
+          >Zmechanizowana latarnia</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-76405-harry-potter-ekspres-do-hogwartu-edycja-kolekcjonerska"
+          target="_blank"
+          >Express do Hogwartu</a
+        >
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://zklockow.pl/lego-10316-icons-wladca-pierscieni-rivendell"
+          target="_blank"
+          >Rivendell</a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="https://zklockow.pl/lego-10276-koloseum" target="_blank"
+          >Koloseum</a
+        >
+      </div>
+    </div>
     <div></div>
   </body>
-</html> -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wishlist</title>
-</head>
-<body>
-  <h3>Wishlist</h3>
-
-  <div id="preview-container"></div>
-
-  <script>
-    const wishlistItems = [
-      "https://zklockow.pl/lego-21042-architecture-statua-wolnosci",
-      // Add other wishlist item URLs here
-    ];
-
-    const previewContainer = document.getElementById("preview-container");
-
-    async function fetchPreview(url) {
-      try {
-        const response = await fetch(`https://api.yourserver.com/fetch?url=${url}`);
-        const data = await response.json();
-
-        const itemDiv = document.createElement("div");
-        itemDiv.innerHTML = `<a href="${url}" target="_blank">${data.title}</a><br/>
-                             Price: ${data.price}<br/>
-                             <img src="${data.image}" alt="Product Image"/>`;
-
-        previewContainer.appendChild(itemDiv);
-      } catch (error) {
-        console.error(`Error fetching data for ${url}: ${error}`);
-      }
-    }
-
-    // Fetch previews for each item in the wishlist
-    wishlistItems.forEach((item) => fetchPreview(item));
-  </script>
-</body>
 </html>
-
