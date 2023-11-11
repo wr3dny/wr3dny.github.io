@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -153,4 +153,46 @@
     </html>
     <div></div>
   </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wishlist</title>
+</head>
+<body>
+  <h3>Wishlist</h3>
+
+  <div id="preview-container"></div>
+
+  <script>
+    const wishlistItems = [
+      "https://zklockow.pl/lego-21042-architecture-statua-wolnosci",
+      // Add other wishlist item URLs here
+    ];
+
+    const previewContainer = document.getElementById("preview-container");
+
+    async function fetchPreview(url) {
+      try {
+        const response = await fetch(`https://api.yourserver.com/fetch?url=${url}`);
+        const data = await response.json();
+
+        const itemDiv = document.createElement("div");
+        itemDiv.innerHTML = `<a href="${url}" target="_blank">${data.title}</a><br/>
+                             Price: ${data.price}<br/>
+                             <img src="${data.image}" alt="Product Image"/>`;
+
+        previewContainer.appendChild(itemDiv);
+      } catch (error) {
+        console.error(`Error fetching data for ${url}: ${error}`);
+      }
+    }
+
+    // Fetch previews for each item in the wishlist
+    wishlistItems.forEach((item) => fetchPreview(item));
+  </script>
+</body>
 </html>
+
