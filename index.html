@@ -63,7 +63,7 @@
           href="https://zklockow.pl/lego-10341-icons-rakieta-sls-nasa-artemis"
           target="_self"
           >
-          <img src="https://zklockow.pl/lego-10341-icons-rakieta-sls-nasa-artemis#&gid=1&pid=2" alt="Artemis">
+          <img src="https://zklockow.pl/img/960/lego-icons-10341-rakieta-sls-nasa-artemis-1.jpg" alt="Artemis">
           </a
         >
       </div>
@@ -213,8 +213,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const gridContainer = document.querySelector(".grid-container");
   const gridItems = Array.from(gridContainer.getElementsByClassName("grid-item"));
 
-  gridItems.sort((a, b) => {L
-    return parseFloat(a.dataset.price) - parseFloat(b.dataset.price);
+  gridItems.sort((a, b) => {    return parseFloat(a.dataset.price) - parseFloat(b.dataset.price);
   });
 
   gridItems.forEach(item => {
