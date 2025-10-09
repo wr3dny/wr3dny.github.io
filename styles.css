@@ -1,0 +1,33 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+nav li {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  background-color: yellow;
+}
+
+nav ul li.rip::before {
+  content: "Rest ... ";
+}
+
+nav ul li.rip:hover::before {
+  content: "REST API ";
+}
+
+nav ul li.night::before {
+  content: "1001 Nights";
+}
+
+nav ul li.night:hover::before {
+  content: "1001 Nightmares";
+}
