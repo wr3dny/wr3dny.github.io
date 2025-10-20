@@ -1,11 +1,11 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0;
-  height: 100%;
 }
 
 nav li {
   list-style: none;
+  cursor: pointer;
 }
 
 header {
@@ -15,19 +15,28 @@ header {
 footer {
   background-color: yellow;
 }
+.lego::before {
+  content: "lego";
+  color: red;
+}
+.lego:hover::before {
+  content: "LEGO";
+  background-color: red;
+  color: white;
+}
 
-nav ul li.rip::before {
+.rip::before {
   content: "Rest ... ";
 }
 
-nav ul li.rip:hover::before {
+.rip:hover::before {
   content: "REST API ";
 }
 
-nav ul li.night::before {
+.night::before {
   content: "1001 Nights";
 }
 
-nav ul li.night:hover::before {
+.night:hover::before {
   content: "1001 Nightmares";
 }
