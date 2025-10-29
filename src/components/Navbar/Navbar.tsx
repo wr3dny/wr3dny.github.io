@@ -1,17 +1,25 @@
 import {NavButton} from "./NavButton/NavButton.tsx";
 import styles from './Navbar.module.css'
-
-const labels = [
-    'one' , 'two' , 'three', 'four'
-]
+import {PATHS} from "../../const/paths.ts";
+import {useLocation} from "react-router-dom";
 
 export const Navbar = () => {
+    const currentPath = useLocation();
+    const strippedPath = currentPath.pathname.startsWith("/") ? currentPath.pathname.slice(1) : currentPath.pathname;
+    const uppercasePath = strippedPath.toUpperCase()
+    const displayPath = uppercasePath || "HOME"
+
     return (
         <div className={styles.container}>
-            <div className={styles.container}>
-                {labels.map((l) => (
-                    <NavButton key={l} label={l} />
-                ))}
+            <div className={styles.logo}>dev404</div>
+            <div className={styles.non_logo}>
+                <div className={styles.path}>{displayPath}            </div>
+                <div className={styles.buttons}>
+                    {Object.entries(PATHS).map(([name, path]) => (
+                        <NavButton key={name} label={name} to={path} />
+                    ))}
+                </div>
+                <div className={styles.hidden} />
             </div>
         </div>
     )

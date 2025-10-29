@@ -1,13 +1,15 @@
-import {HomePage} from "./pages/HomePage/HomePage.tsx";
+import {Navbar} from "./components/Navbar/Navbar.tsx";
+import {HashRouter} from "react-router-dom";
+import {RouterConfig} from "./router.tsx";
 
 
 export const App = () => {
 
-
-  return (
-    <>
-<HomePage/>
-    </>
-  )
+    return (
+        <HashRouter>
+            <Navbar/>
+            <RouterConfig/>
+        </HashRouter>
+    )
 }
 

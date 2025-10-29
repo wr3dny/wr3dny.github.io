@@ -1,4 +1,8 @@
+import { MemoryRouter } from "react-router-dom";
 import {NavButton} from "./NavButton.tsx";
 
-
-export const Basic = () => <NavButton label="Click me" />;
+export const Basic = () => (
+    <MemoryRouter initialEntries={["/"]}>
+        <NavButton label="Home" to={'/'} key='one' />
+    </MemoryRouter>
+);
