@@ -1,16 +1,12 @@
 .container {
     display: flex;
-    border: 2px solid black;
-
+    width: 100%;
+    margin: 0;
 }
 
-.logo{
-    border: 2px solid blue;
-}
 .buttons{
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 .non_logo{

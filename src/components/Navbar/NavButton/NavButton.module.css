@@ -1,6 +1,5 @@
 .outer{
     border: 3px solid white;
-
 }
 
 .inner {
@@ -8,4 +7,9 @@
     border: 2px solid black;
     text-align: center;
     align-content: center;
+    padding: 8px;
+}
+
+.link{
+    text-decoration: none;
 }

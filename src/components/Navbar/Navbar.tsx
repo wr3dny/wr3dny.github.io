@@ -2,6 +2,7 @@ import {NavButton} from "./NavButton/NavButton.tsx";
 import styles from './Navbar.module.css'
 import {PATHS} from "../../const/paths.ts";
 import {useLocation} from "react-router-dom";
+import {NavLogo} from "./NavLogo/NavLogo.tsx";
 
 export const Navbar = () => {
     const currentPath = useLocation();
@@ -11,7 +12,7 @@ export const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.logo}>dev404</div>
+            <NavLogo />
             <div className={styles.non_logo}>
                 <div className={styles.path}>{displayPath}            </div>
                 <div className={styles.buttons}>

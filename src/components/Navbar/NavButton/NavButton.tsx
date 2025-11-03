@@ -9,7 +9,7 @@ interface Props {
 
 export const NavButton = ({label, to}:Props) => {
     return (
-        <Link to={to}>
+        <Link to={to} className={styles.link}>
             <div className={styles.outer}>
                 <div className={styles.inner} >{label}</div>
             </div>
