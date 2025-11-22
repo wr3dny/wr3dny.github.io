@@ -3,4 +3,6 @@ img {
     width: 90px;
     object-fit: contain;
     margin-right: 10px;
+    border-radius: 0 0 25px 0;
+    border: 2px solid var(--blood-orange)
 }

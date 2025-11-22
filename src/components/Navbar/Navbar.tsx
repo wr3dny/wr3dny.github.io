@@ -10,16 +10,21 @@ export const Navbar = () => {
     ? currentPath.pathname.slice(1)
     : currentPath.pathname;
   const uppercasePath = strippedPath.toUpperCase();
-  const displayPath = uppercasePath || "HOME";
+  // const displayPath = uppercasePath || "HOME";
 
   return (
     <div className={styles.container}>
       <NavLogo />
       <div className={styles.non_logo}>
-        <div className={styles.path}>{displayPath} </div>
+        {/*<div className={styles.path}>{displayPath} </div>*/}
         <div className={styles.buttons}>
           {Object.entries(PATHS).map(([name, path]) => (
-            <NavButton key={name} label={name} to={path} />
+            <NavButton
+              key={name}
+              label={name}
+              to={path}
+              disabled={uppercasePath === name}
+            />
           ))}
         </div>
         <div className={styles.hidden} />
