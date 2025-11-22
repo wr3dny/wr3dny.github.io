@@ -13,7 +13,6 @@ export const Lego = () => {
 
   return (
     <div className={styles.page}>
-      <h4>Lista życzeń</h4>
       <div className={styles.item}>
         {sortedList.map((item: Lego) => (
           <a

@@ -1,3 +1,5 @@
+import styles from "./Books.module.css";
+
 type Book = {
   title: string;
   author: string;
@@ -46,7 +48,7 @@ export const Books = () => {
   return (
     <table>
       <thead>
-        <tr>
+        <tr className={styles.headRow}>
           {columns.map((col) => (
             <th key={col}>{labels[col]}</th>
           ))}

@@ -5,7 +5,6 @@
     position: sticky; /* or 'fixed' if you prefer */
     top: 0;
     z-index: 1000;
-
 }
 
 .buttons{
