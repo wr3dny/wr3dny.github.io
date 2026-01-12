@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-family: "Calibri Light", serif;
+}
+
+.par{
+    font-size: xx-large;
+    text-align: center;
+}

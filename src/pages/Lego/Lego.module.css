@@ -1,13 +1,13 @@
-body {
-  background-image: url("../../assets/img_1.png");
-  min-height: 100vh;
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .item {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .mask {
@@ -32,19 +32,31 @@ body {
 }
 
 .card {
-  width: 22%;
+  flex: 1 1 30%;
   margin: 10px;
+}
+
+.table {
+  width: 100%;
 }
 
 @media (width <= 600px) {
   .card {
     width: 100%;
   }
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (601px <= width <= 1024px) {
   .card {
     width: 45%;
+  }
+  .page {
+    display: flex;
+    flex-direction: column;
   }
 }
 

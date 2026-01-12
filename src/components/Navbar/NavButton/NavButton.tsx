@@ -14,9 +14,7 @@ export const NavButton = ({ label, to, disabled }: Props) => {
       className={`${styles.link} ${disabled ? styles.disabled : ""}`}
       onClick={disabled ? (e) => e.preventDefault() : undefined}
     >
-      <div className={styles.outer}>
-        <div className={styles.inner}>{label}</div>
-      </div>
+      <div className={styles.btn}>{label}</div>
     </Link>
   );
 };

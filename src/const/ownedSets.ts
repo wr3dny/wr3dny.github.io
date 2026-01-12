@@ -9,4 +9,32 @@ export const ownedSetsList = [
   31147, 10350, 43249, 75317,
 ];
 
-export const perhapsList = [21347, 43227, 42182, 10297];
+interface Props {
+  setNumber: number;
+  year: number;
+  setName: string;
+}
+
+export const ownedSets: Props[] = [
+  {
+    setNumber: 75349,
+    year: 2023,
+    setName: "Captain Rex Helmet",
+  },
+  {
+    setNumber: 75328,
+    year: 2022,
+    setName: "The Mandalorian Helmet",
+  },
+  {
+    setNumber: 75415,
+    year: 2025,
+    setName: "Kylo Ren Helmet",
+  },
+
+  {
+    setNumber: 10297,
+    year: 2022,
+    setName: "Butiq Hotel",
+  },
+];

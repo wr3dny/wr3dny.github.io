@@ -9,15 +9,6 @@ export type LegoSet = {
 };
 export const LegoWishlist: LegoSet[] = [
   {
-    setNumber: 10297,
-    year: 2022,
-    price: 848,
-    url: "https://zklockow.pl/lego-10297-hotel-butikowy",
-    image: "https://zklockow.pl/img/640/lego-10297-hotel-butikowy-1.jpg",
-    alt: "Hotel",
-    series: "Creator Expert",
-  },
-  {
     setNumber: 43227,
     year: 2023,
     price: 449,
@@ -37,16 +28,7 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Cobra",
     series: "Icons",
   },
-  {
-    setNumber: 75415,
-    year: 2025,
-    price: 239,
-    url: "https://zklockow.pl/lego-75415-star-wars-helm-kylo-rena",
-    image:
-      "https://zklockow.pl/img/960/lego-star-wars-75415-helm-kylo-rena-1.jpg",
-    alt: "KyloRen",
-    series: "StarWars",
-  },
+
   {
     setNumber: 10372,
     year: 2025,
@@ -66,5 +48,14 @@ export const LegoWishlist: LegoSet[] = [
       "https://zklockow.pl/img/960/lego-botanicals-11504-skrzydlokwiat-1.jpg",
     alt: "Wing",
     series: "Botanicals",
+  },
+  {
+    setNumber: 11731,
+    year: 2026,
+    price: 1099,
+    url: "https://zklockow.pl/lego-11371-icons-ulica-handlowa",
+    image: "https://zklockow.pl/img/960/lego-icons-11371-ulica-handlowa-1.jpg",
+    alt: "Shop",
+    series: "Icons",
   },
 ];
