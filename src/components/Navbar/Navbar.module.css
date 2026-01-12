@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     margin: 0;
-    position: sticky; /* or 'fixed' if you prefer */
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
@@ -10,6 +10,7 @@
 .buttons{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .non_logo{
