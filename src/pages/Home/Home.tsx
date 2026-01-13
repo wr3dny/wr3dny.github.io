@@ -34,7 +34,7 @@ export const Home = () => {
           </p>
         ))}
       </div>
-      <p>
+      <p className={styles.status}>
         Status:{" "}
         {error
           ? "Unavailable"
