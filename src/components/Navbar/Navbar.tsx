@@ -1,8 +1,11 @@
-import { NavButton } from "./NavButton/NavButton.tsx";
-import styles from "./Navbar.module.css";
-import { PATHS } from "../../const/paths.ts";
 import { useLocation } from "react-router-dom";
+
+import { NavButton } from "./NavButton/NavButton.tsx";
+
+import { PATHS } from "../../const/paths.ts";
 import { NavLogo } from "./NavLogo/NavLogo.tsx";
+
+import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
   const currentPath = useLocation();
@@ -10,13 +13,13 @@ export const Navbar = () => {
     ? currentPath.pathname.slice(1)
     : currentPath.pathname;
   const uppercasePath = strippedPath.toUpperCase();
-  // const displayPath = uppercasePath || "HOME";
+
+  console.log(currentPath);
 
   return (
     <div className={styles.container}>
       <NavLogo />
       <div className={styles.non_logo}>
-        {/*<div className={styles.path}>{displayPath} </div>*/}
         <div className={styles.buttons}>
           {Object.entries(PATHS).map(([name, path]) => (
             <NavButton

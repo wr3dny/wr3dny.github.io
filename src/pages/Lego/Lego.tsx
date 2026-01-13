@@ -1,6 +1,5 @@
 import { LegoWishlist } from "../../const/lego.ts";
 import styles from "./Lego.module.css";
-import { OwnedTable } from "../../components/OwnedTable/OwnedTable.tsx";
 
 interface Lego {
   setNumber: number;
@@ -28,9 +27,6 @@ export const Lego = () => {
             </div>
           </a>
         ))}
-      </div>
-      <div className={styles.table}>
-        <OwnedTable />
       </div>
     </div>
   );
