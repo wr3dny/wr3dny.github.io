@@ -2,9 +2,9 @@ import styles from "./Home.module.css";
 
 const homeTxt = [
   "Draft of draft of page one day to be",
-  "Only purpose is ( at the moment ) wishlist",
-  "Next will probably be something around books",
-  "Later maybe gallery",
+  "At the moment it's purpose was only to serve wishlist",
+  "Next in progress is connecting to some api to grab needed data",
+  "But first need to finish creating mentioned api",
 ];
 
 export const Home = () => {
