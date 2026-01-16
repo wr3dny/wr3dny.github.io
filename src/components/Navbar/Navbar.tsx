@@ -5,7 +5,6 @@ import { NavButton } from "./NavButton/NavButton.tsx";
 import { NavLogo } from "./NavLogo/NavLogo.tsx";
 
 import styles from "./Navbar.module.css";
-import { useAllAnswersQuery } from "../../api/useAllAnswers.ts";
 
 export const Navbar = () => {
   const currentPath = useLocation();
@@ -13,13 +12,6 @@ export const Navbar = () => {
     ? currentPath.pathname.slice(1)
     : currentPath.pathname;
   const uppercasePath = strippedPath.toUpperCase();
-
-  const { data, isLoading, isError } = useAllAnswersQuery();
-
-  if (isLoading) return <div>Loading...</div>;
-  if (isError) return <div>Error loading answers</div>;
-
-  console.log(data);
 
   return (
     <div className={styles.container}>

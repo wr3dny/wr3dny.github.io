@@ -1,4 +1,7 @@
+import { useHealthQuery } from "../../api/queries/useHealthQuery.ts";
+
 import styles from "./Home.module.css";
+import { useFilesQuery } from "../../api/queries/useFilesQuery.ts";
 
 const homeTxt = [
   "Draft of draft of page one day to be",
@@ -8,15 +11,42 @@ const homeTxt = [
 ];
 
 export const Home = () => {
+  const health = useHealthQuery();
+  const files = useFilesQuery();
+
+  console.log("files", files.data);
+  console.log("health", health.data);
+
+  const statusClass = health.isLoading
+    ? styles.loading
+    : health.isError
+      ? styles.error
+      : styles.ok;
+
   return (
-    <div className={styles.home}>
-      <div>
-        {homeTxt.map((item, index) => (
-          <p className={styles.par} key={index}>
-            {item}
-          </p>
-        ))}
+    <>
+      <div className={styles.permanent}>
+        <div>Welcome traveler to my homePage</div>
+        <div>Either you got lost or find your way here</div>
+        <div>True my resume or less likely true my github account</div>
       </div>
-    </div>
+      <div className={styles.home}>
+        <div>
+          {homeTxt.map((item, index) => (
+            <p className={styles.par} key={index}>
+              {item}
+            </p>
+          ))}
+          <p className={statusClass}>
+            Status:{" "}
+            {health.isLoading
+              ? "loading ..."
+              : health.isError
+                ? health.error.message
+                : health.data?.status}
+          </p>
+        </div>
+      </div>
+    </>
   );
 };
