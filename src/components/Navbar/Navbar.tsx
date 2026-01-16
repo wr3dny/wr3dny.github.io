@@ -31,6 +31,7 @@ export const Navbar = () => {
           {/*  to={"/"}*/}
           {/*  disabled={false}*/}
           {/*/>*/}
+          {/*<NavOpenMenuButton label={} to={} disabled={} />*/}
         </div>
         <div className={styles.hidden} />
       </div>

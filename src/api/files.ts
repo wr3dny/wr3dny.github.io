@@ -7,5 +7,5 @@ export const getFiles = async (path: string) => {
     throw new Error(`${path} failed with status code ${response.status}`);
   }
 
-  return response;
+  return response.json();
 };

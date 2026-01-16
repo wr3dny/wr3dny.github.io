@@ -2,6 +2,7 @@ import { useHealthQuery } from "../../api/queries/useHealthQuery.ts";
 
 import styles from "./Home.module.css";
 import { useFilesQuery } from "../../api/queries/useFilesQuery.ts";
+import { useBooksQuery } from "../../api/queries/useBooksQuery.ts";
 
 const homeTxt = [
   "Draft of draft of page one day to be",
@@ -13,9 +14,11 @@ const homeTxt = [
 export const Home = () => {
   const health = useHealthQuery();
   const files = useFilesQuery();
+  const books = useBooksQuery();
 
   console.log("files", files.data);
   console.log("health", health.data);
+  console.log("books", books.data);
 
   const statusClass = health.isLoading
     ? styles.loading

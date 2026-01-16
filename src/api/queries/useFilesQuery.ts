@@ -1,9 +1,10 @@
-import { getFiles } from "../files.ts";
 import { useQuery } from "@tanstack/react-query";
+import { ENDPOINTS } from "../endpoints.ts";
+import { apiGet } from "../http.ts";
 
 export const useFilesQuery = () => {
   return useQuery({
     queryKey: ["files"],
-    queryFn: () => getFiles("https://collectorium-api.onrender.com/health"),
+    queryFn: () => apiGet(ENDPOINTS.files),
   });
 };

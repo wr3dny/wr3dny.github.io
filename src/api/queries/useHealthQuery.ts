@@ -1,9 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
-import { getHealth } from "../health.ts";
+
+import { ENDPOINTS } from "../endpoints.ts";
+import { apiGet } from "../http.ts";
 
 export const useHealthQuery = () => {
   return useQuery({
     queryKey: ["health"],
-    queryFn: () => getHealth("https://collectorium-api.onrender.com/health"),
+    queryFn: () => apiGet(ENDPOINTS.health),
   });
 };
