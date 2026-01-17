@@ -34,21 +34,21 @@ export const Home = () => {
         <div>True my resume or less likely true my github account</div>
       </div>
       <div className={styles.home}>
-        <div>
-          {homeTxt.map((item, index) => (
+        <p className={statusClass}>
+          Status:{" "}
+          {health.isLoading
+            ? "loading ..."
+            : health.isError
+              ? health.error.message
+              : health.data?.status}
+        </p>
+
+        {health.data &&
+          homeTxt.map((item, index) => (
             <p className={styles.par} key={index}>
               {item}
             </p>
           ))}
-          <p className={statusClass}>
-            Status:{" "}
-            {health.isLoading
-              ? "loading ..."
-              : health.isError
-                ? health.error.message
-                : health.data?.status}
-          </p>
-        </div>
       </div>
     </>
   );
