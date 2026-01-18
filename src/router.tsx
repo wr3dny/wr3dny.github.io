@@ -12,7 +12,7 @@ import { Coins } from "./pages/Coins/Coins.tsx";
 export const RouterConfig = () => {
   return (
     <Routes>
-      <Route path={PATHS.HOME} element={<Home />} />
+      <Route path={"/"} element={<Home />} />
       <Route path={PATHS.GALLERY} element={<Gallery />} />
       <Route path={PATHS.BOOKS} element={<Books />} />
       <Route path={SUBPATHS.LEGO} element={<Lego />} />

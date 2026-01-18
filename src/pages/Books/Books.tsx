@@ -1,35 +1,15 @@
 import styles from "./Books.module.css";
+import { useBooksQuery } from "../../api/queries/useBooksQuery.ts";
 
 type Book = {
   title: string;
   author: string;
-  series: string;
-  subSeries: string;
+  series: string | null;
+  subSeries: string | null;
   seriesNb: number | null;
   subSeriesNb: number | null;
-  format: string;
+  format: string | null;
 };
-
-const booksList: Book[] = [
-  {
-    title: "Book 1",
-    author: "John Doe",
-    series: "One series",
-    subSeries: "none",
-    seriesNb: 1,
-    subSeriesNb: 1,
-    format: "digital",
-  },
-  {
-    title: "Another Book 1",
-    author: "Jane Doe",
-    series: "",
-    subSeries: "",
-    seriesNb: null,
-    subSeriesNb: null,
-    format: "paper",
-  },
-];
 
 const labels: Record<keyof Book, string> = {
   title: "Title",
@@ -42,27 +22,26 @@ const labels: Record<keyof Book, string> = {
 };
 
 export const Books = () => {
-  if (booksList.length === 0) return <p>No books found</p>;
-  const columns = Object.keys(booksList[0]) as (keyof Book)[];
+  const { data } = useBooksQuery();
+
+  if (data?.length === 0) return <p>No books found</p>;
+
+  console.log("data", data, labels);
 
   return (
-    <table>
+    <table className={styles.all}>
       <thead>
-        <tr className={styles.headRow}>
-          {columns.map((col) => (
-            <th key={col}>{labels[col]}</th>
-          ))}
-        </tr>
+        <tr className={styles.headRow}>ole</tr>
       </thead>
-      <tbody>
-        {booksList.map((book) => (
-          <tr key={book.title}>
-            {columns.map((col) => (
-              <td key={col}>{book[col]}</td>
-            ))}
-          </tr>
-        ))}
-      </tbody>
+      {/*<tbody>*/}
+      {/*  {data.map((book) => (*/}
+      {/*    <tr key={book.title}>*/}
+      {/*      {data.map((col) => (*/}
+      {/*        <td key={col}>{book[col]}</td>*/}
+      {/*      ))}*/}
+      {/*    </tr>*/}
+      {/*  ))}*/}
+      {/*</tbody>*/}
     </table>
   );
 };

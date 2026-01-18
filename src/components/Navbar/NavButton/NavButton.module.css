@@ -8,6 +8,9 @@
     font-family: "Calibri Light", serif;
     font-size: large;
     font-weight: bold;
+    width: 150px;
+    height: 30px;
+    background-color: var(--coffee-cappuccino-tan);
 }
 
 .link{

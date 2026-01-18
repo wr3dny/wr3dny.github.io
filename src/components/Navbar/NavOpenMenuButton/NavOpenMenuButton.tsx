@@ -1,4 +1,4 @@
-import styles from "./NavButton.module.css";
+import styles from "./NavOpenMenuButton.module.css";
 
 interface Props {
   label: string;

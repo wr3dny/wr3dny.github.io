@@ -5,20 +5,25 @@ import { NavButton } from "./NavButton/NavButton.tsx";
 import { NavLogo } from "./NavLogo/NavLogo.tsx";
 
 import styles from "./Navbar.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavOpenMenuButton } from "./NavOpenMenuButton/NavOpenMenuButton.tsx";
 
 export const Navbar = () => {
   const [subMenuIsOpen, setSubMenuIsOpen] = useState(false);
-  const currentPath = useLocation();
-  const strippedPath = currentPath.pathname.startsWith("/")
-    ? currentPath.pathname.slice(1)
-    : currentPath.pathname;
-  const uppercasePath = strippedPath.toUpperCase();
+  // const [legoMenu, setLegoMenu] = useState(false);
+  const location = useLocation();
 
   const handleSubMenu = () => {
     setSubMenuIsOpen((prev) => !prev);
   };
+
+  useEffect(() => {
+    const path = location.pathname.replace("/", "").toUpperCase();
+
+    if (path === "GALLERY" || path === "BOOKS") {
+      setSubMenuIsOpen(false);
+    }
+  }, [location.pathname]);
 
   return (
     <div className={styles.container}>
@@ -30,7 +35,7 @@ export const Navbar = () => {
               key={name}
               label={name}
               to={path}
-              disabled={uppercasePath === name}
+              disabled={path === name}
             />
           ))}
           <NavOpenMenuButton
@@ -38,21 +43,28 @@ export const Navbar = () => {
             key="COLLECTIONS"
             onClick={handleSubMenu}
           />
+        </div>
+        <div className={styles.buttons}>
           {subMenuIsOpen &&
             Object.entries(SUBPATHS).map(([name, path]) => (
               <NavButton
                 key={name}
                 label={name}
                 to={path}
-                disabled={uppercasePath === name}
+                disabled={path === name}
               />
             ))}
-          {/*<NavButton*/}
-          {/*  label={status !== null ? status?.toString() : "null"}*/}
-          {/*  to={"/"}*/}
-          {/*  disabled={false}*/}
-          {/*/>*/}
-          {/*<NavOpenMenuButton label={} to={} disabled={} />*/}
+        </div>
+        <div className={styles.buttons}>
+          {subMenuIsOpen &&
+            Object.entries(SUBPATHS).map(([name, path]) => (
+              <NavButton
+                key={name}
+                label={name}
+                to={path}
+                disabled={path === name}
+              />
+            ))}
         </div>
         <div className={styles.hidden} />
       </div>
