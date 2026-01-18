@@ -3,31 +3,31 @@ export type TableRow = Record<string, CellValue>;
 
 interface Props {
   caption: string;
-  columns: CellValue[];
-
-  cellsData: string | number;
+  columns: string[];
+  rows: TableRow[];
 }
 
-export const Table = ({ caption }: Props) => {
+export const CustomTable = ({ caption, columns, rows }: Props) => {
   return (
     <table>
       <caption>{caption}</caption>
 
       <thead>
         <tr>
-          <th>Header 1</th>
+          {columns.map((column) => (
+            <th key={column}>{column}</th>
+          ))}
         </tr>
       </thead>
 
       <tbody>
-        <tr>
-          <td>Row 1, Cell 1</td>
-          <td>Row 1, Cell 2</td>
-        </tr>
-        <tr>
-          <td>Row 2, Cell 1</td>
-          <td>Row 2, Cell 2</td>
-        </tr>
+        {rows.map((row, rowIndex) => (
+          <tr key={rowIndex}>
+            {columns.map((column) => (
+              <td key={column}>{row[column] ?? ""}</td>
+            ))}
+          </tr>
+        ))}
       </tbody>
     </table>
   );
