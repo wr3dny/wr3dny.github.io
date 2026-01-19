@@ -1,24 +1,17 @@
 import { useHealthQuery } from "../../api/queries/useHealthQuery.ts";
 
 import styles from "./Home.module.css";
-import { useFilesQuery } from "../../api/queries/useFilesQuery.ts";
-import { useBooksQuery } from "../../api/queries/useBooksQuery.ts";
 
 const homeTxt = [
-  "Draft of draft of page one day to be",
-  "At the moment it's purpose was only to serve wishlist",
-  "Next in progress is connecting to some api to grab needed data",
-  "But first need to finish creating mentioned api",
+  "This page suppose to be polished few years ago",
+  "But lack of time and tons of ideas got me nowhere",
+  "So, as new year started I started (re)building this page",
+  "With some kind of 'plan' ( big word ) ",
+  "First let it work, then let it look",
 ];
 
 export const Home = () => {
   const health = useHealthQuery();
-  const files = useFilesQuery();
-  const books = useBooksQuery();
-
-  console.log("files", files.data);
-  console.log("health", health.data);
-  console.log("books", books.data);
 
   const statusClass = health.isLoading
     ? styles.loading
@@ -29,18 +22,20 @@ export const Home = () => {
   return (
     <>
       <div className={styles.permanent}>
-        <div>Welcome traveler to my homePage</div>
-        <div>Either you got lost or find your way here</div>
-        <div>True my resume or less likely true my github account</div>
+        <div className={styles.left}>
+          <img className={styles.letter} src="/src/assets/W_f_l.png" alt="W" />
+          elcome traveler to my homePage
+        </div>
+        <div>I think You got lost...</div>
       </div>
       <div className={styles.home}>
         <p className={statusClass}>
-          Status:{" "}
+          {" "}
           {health.isLoading
-            ? "loading ..."
+            ? "<insert loading banner>"
             : health.isError
               ? health.error.message
-              : health.data?.status}
+              : `API says:${health.data?.status}`}
         </p>
 
         {health.data &&

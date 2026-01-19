@@ -10,7 +10,6 @@ import { NavOpenMenuButton } from "./NavOpenMenuButton/NavOpenMenuButton.tsx";
 
 export const Navbar = () => {
   const [subMenuIsOpen, setSubMenuIsOpen] = useState(false);
-  // const [legoMenu, setLegoMenu] = useState(false);
   const location = useLocation();
 
   const handleSubMenu = () => {
@@ -43,17 +42,6 @@ export const Navbar = () => {
             key="COLLECTIONS"
             onClick={handleSubMenu}
           />
-        </div>
-        <div className={styles.buttons}>
-          {subMenuIsOpen &&
-            Object.entries(SUBPATHS).map(([name, path]) => (
-              <NavButton
-                key={name}
-                label={name}
-                to={path}
-                disabled={path === name}
-              />
-            ))}
         </div>
         <div className={styles.buttons}>
           {subMenuIsOpen &&

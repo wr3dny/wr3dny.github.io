@@ -4,18 +4,27 @@
     justify-content: right;
     align-items: flex-end;
     margin-top: 15px;
+    margin-right: 30px;
     font-family: "Calibri Light", serif;
 }
 
 .permanent {
     font-family: "Calibri Light", serif;
     font-size: 32px;
+    margin-left: 15px;
+
+}
+
+.left{
+    padding-left: 10px;
 }
 
 .par{
     font-size: xx-large;
     text-align: right;
-    padding-right: 20px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
 }
 
 .loading {
@@ -26,4 +35,10 @@
 .ok {
     font-size: xx-large;
     color: var(--forest-moss);
+}
+
+.letter{
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
 }
