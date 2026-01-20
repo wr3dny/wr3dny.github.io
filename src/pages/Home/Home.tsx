@@ -22,11 +22,8 @@ export const Home = () => {
   return (
     <>
       <div className={styles.permanent}>
-        <div className={styles.left}>
-          <img className={styles.letter} src="/src/assets/W_f_l.png" alt="W" />
-          elcome traveler to my homePage
-        </div>
-        <div>I think You got lost...</div>
+        <div className={styles.left}>Welcome traveler to my homePage</div>
+        <div>I think you might have gotten lost...</div>
       </div>
       <div className={styles.home}>
         <p className={statusClass}>

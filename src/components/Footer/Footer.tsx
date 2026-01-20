@@ -19,16 +19,37 @@ export const Footer = () => {
       .catch(() => setInfo(null));
   }, []);
 
-  console.log(info?.commitMessage);
+  const lastCommitMsg = info?.commitMessage;
 
-  const today = new Date().toISOString().split("T")[0];
+  const lastCommitDate = info?.commitDate
+    ? new Date(info.commitDate)
+    : undefined;
+
+  const today = new Date();
+  const todayDisplay = new Date().toISOString().split("T")[0];
+
+  const MS_IN_DAY = 1000 * 60 * 60 * 24;
+
+  const daysSinceLastCommit = lastCommitDate
+    ? Math.floor((today.getTime() - lastCommitDate.getTime()) / MS_IN_DAY)
+    : undefined;
+
+  const dayS = () => {
+    return daysSinceLastCommit === 1 ? "days" : "days";
+  };
 
   return (
     <footer className={styles.wrapper}>
       <div className={styles.hidden} />
       <div className={styles.display}>
-        {!info ? <div>No info</div> : <div>{info.commitDate}</div>}
-        <div>{today}</div>
+        {!info ? (
+          <div>No info</div>
+        ) : (
+          <div>
+            {lastCommitMsg} - {daysSinceLastCommit} {dayS()} ago
+          </div>
+        )}
+        <div>{todayDisplay}</div>
       </div>
     </footer>
   );
