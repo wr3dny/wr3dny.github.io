@@ -19,17 +19,15 @@ export const Footer = () => {
       .catch(() => setInfo(null));
   }, []);
 
+  console.log(info?.commitMessage);
+
   const today = new Date().toISOString().split("T")[0];
 
   return (
     <footer className={styles.wrapper}>
       <div className={styles.hidden} />
       <div className={styles.display}>
-        {!info ? (
-          <div>No info</div>
-        ) : (
-          <div>Last update - date - description</div>
-        )}
+        {!info ? <div>No info</div> : <div>{info.commitDate}</div>}
         <div>{today}</div>
       </div>
     </footer>
