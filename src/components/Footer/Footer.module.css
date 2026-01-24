@@ -1,25 +1,97 @@
-.wrapper{
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
-.hidden{
-    width: 40%;
-    visibility: hidden ;
+.hidden {
+  width: 40%;
+  visibility: hidden;
 }
 
-.display{
-    display: flex;
-    flex-direction: column;
-    border-left: 2px solid var(--blood-orange);
-    border-top: 2px solid var(--blood-orange);
-    border-right: 2px solid var(--blood-orange);
-    border-radius: 45px 0 0 0 ;
-    background: var(--amber-cream);
-    width: 60%;
-    justify-content: center;
-    align-items: center;
+.display {
+  display: flex;
+  flex-direction: row;
+  border-left: 2px solid var(--blood-orange);
+  border-top: 2px solid var(--blood-orange);
+  border-radius: 45px 0 0 0 ;
+  width: 60%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.excellent {
+  color: var(--status-excellent);
+  background: color-mix(
+    in srgb,
+    var(--status-excellent) var(--status-bg-strength),
+    transparent
+  );
+}
+.healthy {
+  color: var(--status-healthy);
+  background: color-mix(
+    in srgb,
+    var(--status-healthy) var(--status-bg-strength),
+    transparent
+  );
+}
+.stable {
+  color: var(--status-stable);
+  background: color-mix(
+    in srgb,
+    var(--status-stable) var(--status-bg-strength),
+    transparent
+  );
+}
+.stale {
+  color: var(--status-stale);
+  background: color-mix(
+    in srgb,
+    var(--status-stale) var(--status-bg-strength),
+    transparent
+  );
+}
+.degrading {
+  color: var(--status-degrading);
+  background: color-mix(
+    in srgb,
+    var(--status-degrading) var(--status-bg-strength),
+    transparent
+  );
+}
+.inactive {
+  color: var(--status-inactive);
+  background: color-mix(
+    in srgb,
+    var(--status-inactive) var(--status-bg-strength),
+    transparent
+  );
+}
+.forgotten {
+  color: var(--status-forgotten);
+  background: color-mix(
+    in srgb,
+    var(--status-forgotten) var(--status-bg-strength),
+    transparent
+  );
+}
+
+.commit {
+  border: 2px solid var(--blood-orange);
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.commitMsg {
+  padding-right: 2rem;
+  font-size: large;
 }

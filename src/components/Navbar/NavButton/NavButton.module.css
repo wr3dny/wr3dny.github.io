@@ -1,7 +1,6 @@
 .btn {
     box-sizing: content-box;
     border-bottom: 2px solid var(--coffee-espresso-brown);
-    border-bottom-right-radius: 8px;
     text-align: center;
     align-content: center;
     padding: 6px;

@@ -32,10 +32,26 @@
     --charcoal-grey: #595959;
     --espresso-grey: #3C3C3C;
 
-    /* 🌊 Blues (5) */
-    --ice-blue: #D6E8F5;
-    --sky-blue: #A3C9E2;
-    --ocean-blue: #5A9CCF;
-    --deep-sea-blue: #2E6699;
-    --midnight-blue: #1B3B5F;
+    /* Blues (deep to near-white) */
+    --night-abyss:        #070b14; /* near-black navy */
+    --night-deep-navy:    #0b1326;
+    --night-midnight:     #111e3a;
+    --night-deep-blue:    #182a52;
+    --night-slate-blue:   #22396a;
+    --night-ocean:        #2f4c86;
+    --night-bright-blue:  #3f62a3;
+    --night-soft-blue:    #6284c2;
+    --night-pale-blue:    #9fb2dd;
+    --night-moonlit:      #e7ecfb; /* near-white blue */
+
+    --status-excellent: #1fbf75; /* vivid green */
+    --status-healthy:   #5bd36a; /* green */
+    --status-stable:    #a8d545; /* yellow-green */
+    --status-stale:     #f0c419; /* amber */
+    --status-degrading: #f08a24; /* orange */
+    --status-inactive:  #e2574c; /* red-orange */
+    --status-forgotten: #8b93a6; /* neutral gray-blue */
+
+    --status-bg-strength: 18%;
 }
+
