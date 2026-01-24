@@ -1,4 +1,23 @@
+:root[data-theme="day"] {
+    background-image: url("../assets/bgDay.png");
+    background-size: cover;
+    background-position: center;
+}
+
+:root[data-theme="night"] {
+    background-image: url("../assets/bgNight.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
 :root {
+    /* Default values (can be overridden per theme below) */
+    --bg-fade: 0.40;  /* higher = more faded */
+    --bg-blur: 0px;   /* optional softness */
+
+    /* Background image URLs (set per theme) */
+    --bg-image: none;
     /* 🧁 Whites (3) */
     --coffee-foam-white: #FAF7F2;
     --milk-foam: #EFEFE4;

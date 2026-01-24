@@ -6,15 +6,11 @@ import { NavLogo } from "./NavLogo/NavLogo.tsx";
 
 import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
-import { NavOpenMenuButton } from "./NavOpenMenuButton/NavOpenMenuButton.tsx";
+import { ToggleButton } from "../ToggleButton/ToggleButton.tsx";
 
 export const Navbar = () => {
   const [subMenuIsOpen, setSubMenuIsOpen] = useState(false);
   const location = useLocation();
-
-  const handleSubMenu = () => {
-    setSubMenuIsOpen((prev) => !prev);
-  };
 
   useEffect(() => {
     const path = location.pathname.replace("/", "").toUpperCase();
@@ -37,11 +33,7 @@ export const Navbar = () => {
               disabled={path === name}
             />
           ))}
-          <NavOpenMenuButton
-            label="COLLECTIONS"
-            key="COLLECTIONS"
-            onClick={handleSubMenu}
-          />
+          <ToggleButton />
         </div>
         <div className={styles.buttons}>
           {subMenuIsOpen &&
