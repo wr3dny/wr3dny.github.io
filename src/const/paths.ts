@@ -1,15 +1,8 @@
 export const PATHS: Record<string, string> = {
+  HOME: "/",
   BOOKS: "/books",
   GALLERY: "/gallery",
-};
-
-export const SUBPATHS: Record<string, string> = {
   LEGO: "/lego",
-  MMMODELS: "/MMMODELS",
+  MODELS: "/models",
   WASGIJ: "/wasgij",
-};
-
-export const SECONDSUBPATH: Record<string, string> = {
-  OWNED: "/owned",
-  WANTED: "/wanted",
 };

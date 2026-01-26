@@ -1,25 +1,45 @@
-.logo {
-    height: 90px;
-    width: 90px;
-    object-fit: contain;
-    padding: 10px;
-    border: 2px solid var(--coffee-cocoa-dust);
-    background-color: var(--coffee-latte-cream);
-    border-radius: 50% 0 50% 50%;
-    z-index: 1000;
-}
-
-
-
-
-.logo:hover {
-    border: 5px solid var(--night-bright-blue);
-    background-color: var(--night-deep-navy);
-    cursor: pointer;
-}
-
 .link {
     display: inline-flex;
     text-decoration: none;
+    color: inherit;
+
+    border-radius: 18px;
 }
 
+.logo {
+    height: 64px;
+    width: 64px;
+    object-fit: contain;
+
+    padding: 10px;
+    border-radius: 50%;
+
+    background: linear-gradient(
+            135deg,
+            color-mix(in srgb, var(--c-surface) 78%, transparent),
+            color-mix(in srgb, var(--c-surface-2) 70%, transparent)
+    );
+    border: 1px solid color-mix(in srgb, var(--c-border) 70%, transparent);
+    box-shadow: 0 10px 22px var(--c-shadow);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.link:hover .logo {
+    border-color: color-mix(in srgb, var(--c-accent-2) 35%, var(--c-border));
+    box-shadow: 0 14px 28px var(--c-shadow);
+    cursor: pointer;
+}
+
+.link:focus-visible .logo {
+    outline: 2px solid color-mix(in srgb, var(--c-accent-2) 70%, transparent);
+    outline-offset: 3px;
+}
+
+.link:active .logo {
+    transform: translateY(0px);
+    box-shadow: 0 10px 22px var(--c-shadow);
+}

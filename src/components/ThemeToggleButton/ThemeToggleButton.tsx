@@ -3,9 +3,9 @@ import dayIcon from "../../assets/dayIcon.png";
 
 import { useTheme } from "../../hooks/useTheme.ts";
 
-import styles from "./ToggleButton.module.css";
+import styles from "./ThemeToggleButton.module.css";
 
-export function ToggleButton() {
+export function ThemeToggleButton() {
   const { theme, toggle } = useTheme();
   const isNight = theme === "night";
 
@@ -18,7 +18,7 @@ export function ToggleButton() {
       onClick={toggle}
       className={styles.themeToggle}
       aria-label={isNight ? "Switch to day theme" : "Switch to night theme"}
-      title={isNight ? "Day mode" : "Night mode"}
+      title={isNight ? "Switch to day theme" : "Switch to night theme"}
     >
       <img
         className={styles.icon}

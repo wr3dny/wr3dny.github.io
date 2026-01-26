@@ -1,50 +1,33 @@
 import { useLocation } from "react-router-dom";
-import { PATHS, SUBPATHS } from "../../const/paths.ts";
+import { PATHS } from "../../const/paths.ts";
 import { NavButton } from "./NavButton/NavButton.tsx";
 
 import { NavLogo } from "./NavLogo/NavLogo.tsx";
 
 import styles from "./Navbar.module.css";
-import { useEffect, useState } from "react";
-import { ToggleButton } from "../ToggleButton/ToggleButton.tsx";
+import { ThemeToggleButton } from "../ThemeToggleButton/ThemeToggleButton.tsx";
 
 export const Navbar = () => {
-  const [subMenuIsOpen, setSubMenuIsOpen] = useState(false);
   const location = useLocation();
 
-  useEffect(() => {
-    const path = location.pathname.replace("/", "").toUpperCase();
-
-    if (path === "GALLERY" || path === "BOOKS") {
-      setSubMenuIsOpen(false);
-    }
-  }, [location.pathname]);
+  console.log(location.pathname);
 
   return (
     <div className={styles.container}>
       <NavLogo />
       <div className={styles.non_logo}>
         <div className={styles.buttons}>
-          {Object.entries(PATHS).map(([name, path]) => (
-            <NavButton
-              key={name}
-              label={name}
-              to={path}
-              disabled={path === name}
-            />
-          ))}
-          <ToggleButton />
-        </div>
-        <div className={styles.buttons}>
-          {subMenuIsOpen &&
-            Object.entries(SUBPATHS).map(([name, path]) => (
+          {Object.entries(PATHS)
+            .filter(([, path]) => path !== PATHS.HOME)
+            .map(([name, path]) => (
               <NavButton
                 key={name}
                 label={name}
                 to={path}
-                disabled={path === name}
+                disabled={location.pathname === path}
               />
             ))}
+          <ThemeToggleButton />
         </div>
         <div className={styles.hidden} />
       </div>

@@ -1,76 +1,58 @@
+:root {
+    --radius-lg: 18px;
+    --radius-md: 14px;
+
+    --blur-strong: 14px;
+    --blur-soft: 10px;
+
+    --shadow-elev: 0 10px 28px rgba(0, 0, 0, 0.20);
+    --shadow-soft: 0 8px 18px rgba(0, 0, 0, 0.14);
+
+    --bg-image-opacity: 0.38;
+}
+
+/* =========================
+   DAY THEME
+   ========================= */
 :root[data-theme="day"] {
     background-image: url("../assets/bgDay.png");
     background-size: cover;
     background-position: center;
+
+    --c-bg: #F4E6D2;         /* page background (parchment) */
+    --c-surface: #F8F0E3;    /* main cards/panels */
+    --c-surface-2: #EFE3D2;  /* inner panels / table header band */
+    --c-text: #2A2420;       /* primary text */
+    --c-text-muted: #6A5B52; /* secondary text */
+    --c-accent: #D27A3A;     /* orange accent (tabs / highlights) */
+    --c-accent-2: #7A5AA6;   /* purple accent (links / selected) */
+    --c-border: #D8C6B1;     /* outlines / separators */
+    --c-shadow: rgba(80, 55, 35, 0.20); /* theme shadow tint */
+
+    --bg-image-opacity: 0.34;
 }
 
+/* =========================
+   NIGHT THEME
+   ========================= */
 :root[data-theme="night"] {
     background-image: url("../assets/bgNight.png");
     background-size: cover;
     background-position: center;
+
+    --c-bg: #0E1626;         /* deep navy */
+    --c-surface: #141F33;    /* main cards/panels */
+    --c-surface-2: #0F1A2B;  /* inner panels / table header band */
+    --c-text: #E7EEF7;       /* primary text */
+    --c-text-muted: #A9B6C8; /* secondary text */
+    --c-accent: #E39A57;     /* warm accent for pills */
+    --c-accent-2: #8CB4FF;   /* cool accent for links/selected */
+    --c-border: #2A3A57;     /* outlines / separators */
+    --c-shadow: rgba(0, 0, 0, 0.55); /* theme shadow tint */
+
+    --bg-image-opacity: 0.24;
 }
 
-
-:root {
-    /* Default values (can be overridden per theme below) */
-    --bg-fade: 0.40;  /* higher = more faded */
-    --bg-blur: 0px;   /* optional softness */
-
-    /* Background image URLs (set per theme) */
-    --bg-image: none;
-    /* 🧁 Whites (3) */
-    --coffee-foam-white: #FAF7F2;
-    --milk-foam: #EFEFE4;
-    --ivory-sugar: #E8DFD3;
-
-    /* ☕ Browns (5) */
-    --coffee-latte-cream: #F5E6CA;
-    --coffee-cappuccino-tan: #CBB89D;
-    --coffee-cocoa-dust: #8B6D5C;
-    --coffee-espresso-brown: #5B4435;
-    --coffee-midnight-roast: #2B1B0E;
-
-    /* 🍊 Oranges (5) */
-    --lemon-twist: #F7D36F;
-    --amber-cream: #F4C38E;
-    --pumpkin-puree: #D96C06;
-    --blood-orange: #E35D2F;
-    --maple-syrup: #B76E3C;
-
-    /* 🌿 Greens (5) */
-    --mint-ice: #A8D5BA;
-    --matcha-green: #93A66F;
-    --leaf-vein: #6E7543;
-    --forest-moss: #4F5B2B;
-    --deep-matcha: #2F3A1E;
-
-    /* ⚙️ Greys (5) */
-    --ash-grey: #C9C9C9;
-    --fog-grey: #A8A8A8;
-    --stone-grey: #8E8E8E;
-    --charcoal-grey: #595959;
-    --espresso-grey: #3C3C3C;
-
-    /* Blues (deep to near-white) */
-    --night-abyss:        #070b14; /* near-black navy */
-    --night-deep-navy:    #0b1326;
-    --night-midnight:     #111e3a;
-    --night-deep-blue:    #182a52;
-    --night-slate-blue:   #22396a;
-    --night-ocean:        #2f4c86;
-    --night-bright-blue:  #3f62a3;
-    --night-soft-blue:    #6284c2;
-    --night-pale-blue:    #9fb2dd;
-    --night-moonlit:      #e7ecfb; /* near-white blue */
-
-    --status-excellent: #1fbf75; /* vivid green */
-    --status-healthy:   #5bd36a; /* green */
-    --status-stable:    #a8d545; /* yellow-green */
-    --status-stale:     #f0c419; /* amber */
-    --status-degrading: #f08a24; /* orange */
-    --status-inactive:  #e2574c; /* red-orange */
-    --status-forgotten: #8b93a6; /* neutral gray-blue */
-
-    --status-bg-strength: 18%;
+body {
+    color: var(--c-text);
 }
-

@@ -9,16 +9,6 @@ export type LegoSet = {
 };
 export const LegoWishlist: LegoSet[] = [
   {
-    setNumber: 43227,
-    year: 2023,
-    price: 449,
-    url: "https://zklockow.pl/lego-43227-disney-ikony-zloczyncow",
-    image:
-      "https://zklockow.pl/img/960/lego-disney-43227-ikony-zloczyncow-1.jpg",
-    alt: "Icons",
-    series: "Disney",
-  },
-  {
     setNumber: 10357,
     year: 2025,
     price: 669,

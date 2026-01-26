@@ -14,11 +14,6 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  -webkit-mask-image: url("../../assets/img_6.png");
-  mask-image: url("../../assets/img_6.png");
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-
   -webkit-mask-size: contain;
   mask-size: contain;
 

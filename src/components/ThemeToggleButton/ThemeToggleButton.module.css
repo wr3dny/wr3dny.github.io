@@ -1,23 +1,23 @@
-.link {
-    text-decoration: none;
-    color: inherit;
-    display: inline-flex;
+.icon{
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    display: block;
 }
 
-.disabled {
-    pointer-events: none;
-    opacity: 0.55;
-}
-
-.btn {
+.themeToggle{
     box-sizing: border-box;
-    width: 150px;
+    width: 50px;
     height: 34px;
     padding: 6px 10px;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
     border-radius: 0 14px 14px 0;
+    cursor: pointer;
+
     background: linear-gradient(
             135deg,
             color-mix(in srgb, var(--c-surface) 78%, transparent),
@@ -25,23 +25,24 @@
     );
     border: 1px solid color-mix(in srgb, var(--c-border) 70%, transparent);
     box-shadow: 0 10px 22px var(--c-shadow);
+
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
     transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
 }
 
-.link:hover .btn {
+.themeToggle:hover {
     border-color: color-mix(in srgb, var(--c-accent-2) 35%, var(--c-border));
     box-shadow: 0 14px 28px var(--c-shadow);
 }
 
-.link:focus-visible .btn {
-    outline: 2px solid color-mix(in srgb, var(--c-accent-2) 70%, transparent);
-    outline-offset: 3px;
-}
-
-.link:active .btn {
+.themeToggle:active {
     transform: translateY(0px);
     box-shadow: 0 10px 22px var(--c-shadow);
+}
+
+.themeToggle:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--c-accent-2) 70%, transparent);
+    outline-offset: 3px;
 }
