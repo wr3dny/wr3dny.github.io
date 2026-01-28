@@ -48,4 +48,14 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Shop",
     series: "Icons",
   },
+  {
+    setNumber: 11373,
+    year: 2026,
+    price: 299,
+    url: "https://zklockow.pl/lego-11373-icons-wladca-pierscieni-helm-saurona",
+    image:
+      "https://zklockow.pl/img/960/lego-icons-11373-wladca-pierscieni-helm-saurona-1.jpg",
+    alt: "Sauron",
+    series: "Icons",
+  },
 ];

@@ -7,15 +7,17 @@
 
 .themeToggle{
     box-sizing: border-box;
-    width: 50px;
-    height: 34px;
+    width: 39px;
+    height: 39px;
     padding: 6px 10px;
+    margin-left: 5px;
+    margin-bottom: 6px;
 
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    border-radius: 0 14px 14px 0;
+    border-radius:50%;
     cursor: pointer;
 
     background: linear-gradient(

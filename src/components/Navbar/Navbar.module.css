@@ -10,21 +10,125 @@
     padding: 10px 12px;
 }
 
-.buttons {
+.firstLine, .secondLine {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    display: flex;
+    justify-content: flex-start;
+
+    position: relative;
+}
+
+
+.navButtons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
 }
 
-.non_logo {
+.actions {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 1 1 auto;
-    min-width: 0;
 }
 
-.hidden {
+.burger {
     display: none;
+
+    height: 39px;
+    width: 39px;
+    padding: 0;
+    margin-left: 5px;
+
+    border-radius: 50%;
+    background: linear-gradient(
+            135deg,
+            color-mix(in srgb, var(--c-surface) 62%, transparent),
+            color-mix(in srgb, var(--c-surface-2) 55%, transparent)
+    );
+    border: 1px solid color-mix(in srgb, var(--c-border) 65%, transparent);
+    box-shadow: var(--shadow-soft);
+
+    backdrop-filter: blur(var(--blur-soft));
+    -webkit-backdrop-filter: blur(var(--blur-soft));
+
+    cursor: pointer;
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.burger:hover {
+    border-color: color-mix(in srgb, var(--c-accent-2) 35%, var(--c-border));
+    box-shadow: var(--shadow-elev);
+}
+
+.burger:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--c-accent-2) 70%, transparent);
+    outline-offset: 3px;
+}
+
+.burger:active {
+    transform: translateY(0px);
+}
+
+.burgerIcon {
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    background: color-mix(in srgb, var(--c-text) 80%, transparent);
+}
+
+.burgerIcon::before,
+.burgerIcon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    background: color-mix(in srgb, var(--c-text) 80%, transparent);
+}
+
+.burgerIcon::before {
+    top: -6px;
+}
+
+.burgerIcon::after {
+    top: 6px;
+}
+
+@media (max-width: 720px) {
+    .burger {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navButtons {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: -131px;
+
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+
+        padding: 10px;
+        border-radius: var(--radius-lg);
+        background: linear-gradient(
+                135deg,
+                color-mix(in srgb, var(--c-surface) 58%, transparent),
+                color-mix(in srgb, var(--c-surface-2) 52%, transparent)
+        );
+        border: 1px solid color-mix(in srgb, var(--c-border) 65%, transparent);
+        box-shadow: var(--shadow-elev);
+
+        backdrop-filter: blur(var(--blur-strong));
+        -webkit-backdrop-filter: blur(var(--blur-strong));
+    }
+
+    .navButtonsOpen {
+        display: flex;
+    }
 }

@@ -6,17 +6,45 @@ import { NavLogo } from "./NavLogo/NavLogo.tsx";
 
 import styles from "./Navbar.module.css";
 import { ThemeToggleButton } from "../ThemeToggleButton/ThemeToggleButton.tsx";
+import { useEffect, useState } from "react";
 
 export const Navbar = () => {
   const location = useLocation();
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    setIsMenuOpen(true);
+  }, [location.pathname]);
 
   console.log(location.pathname);
 
   return (
     <div className={styles.container}>
       <NavLogo />
-      <div className={styles.non_logo}>
-        <div className={styles.buttons}>
+      <div className={styles.actionButtons}>
+        <ThemeToggleButton />
+        <div className={styles.secondLine}>
+          <div className={styles.actions}>
+            <button
+              type="button"
+              className={styles.burger}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
+              onClick={() => setIsMenuOpen((v) => !v)}
+            >
+              <span className={styles.burgerIcon} aria-hidden="true" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.firstLine}>
+        <div
+          className={`${styles.navButtons} ${isMenuOpen ? styles.navButtonsOpen : ""}`}
+          role="navigation"
+          aria-label="Primary"
+        >
           {Object.entries(PATHS)
             .filter(([, path]) => path !== PATHS.HOME)
             .map(([name, path]) => (
@@ -27,9 +55,7 @@ export const Navbar = () => {
                 disabled={location.pathname === path}
               />
             ))}
-          <ThemeToggleButton />
         </div>
-        <div className={styles.hidden} />
       </div>
     </div>
   );

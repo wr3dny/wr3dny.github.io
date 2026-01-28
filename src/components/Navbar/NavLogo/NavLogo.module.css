@@ -43,3 +43,10 @@
     transform: translateY(0px);
     box-shadow: 0 10px 22px var(--c-shadow);
 }
+
+.outer {
+    border:10px solid color-mix(in srgb, var(--c-surface));
+    border-radius: 50%;
+    height: 84px;
+    width: 84px;
+}
