@@ -4,12 +4,14 @@ import { CustomTable } from "../../components/Table/CustomTable.tsx";
 
 export type Book = {
   id: number;
+  firstName: string;
+  lastName: string;
   title: string;
-  translatedTitle?: string | null;
-  author: string;
-  series?: string | null;
-  numberInSeries?: number | null;
-  format: string;
+  originalTitle: string | null;
+  worldHero: string | null;
+  numberInSeries: number | null;
+  subSeries: string | null;
+  numberInSubSeries: string | null;
 };
 
 export const Books = () => {

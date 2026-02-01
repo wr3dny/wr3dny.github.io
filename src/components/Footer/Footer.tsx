@@ -71,6 +71,7 @@ export const Footer = () => {
     <footer className={styles.wrapper}>
       <div className={styles.hidden} />
       <div className={styles.display}>
+        <div>Need "little" work here</div>
         <div className={styles.commitMsg}>{lastCommitMsg}</div>
         <div className={`${styles.commit} ${bgClass ? styles[bgClass] : ""}`}>
           {!info ? "?" : `${daysSinceLastCommit}`}

@@ -1,5 +1,10 @@
 export const Gallery = () => {
-    return (
-        <div>Gallery</div>
-    )
-}
+  return (
+    <>
+      <h2>Gallery</h2>
+      <div>Gdynia</div>
+      <div>Not Gdynia</div>
+      <div>Old Work</div>
+    </>
+  );
+};
