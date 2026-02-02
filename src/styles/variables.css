@@ -9,6 +9,8 @@
     --shadow-soft: 0 8px 18px rgba(0, 0, 0, 0.14);
 
     --bg-image-opacity: 0.38;
+
+    --warning-or-error: #f44336;
 }
 
 /* =========================
@@ -51,6 +53,7 @@
     --c-shadow: rgba(0, 0, 0, 0.55); /* theme shadow tint */
 
     --bg-image-opacity: 0.24;
+
 }
 
 body {

@@ -1,3 +1,5 @@
+import { PageWithTable } from "../../components/PageWithTable/PageWithTable.tsx";
+
 export const Wasgij = () => {
-  return <div>WASGIJ</div>;
+  return <PageWithTable />;
 };

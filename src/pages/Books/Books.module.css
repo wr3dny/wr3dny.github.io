@@ -1,5 +1,6 @@
-.headRow {
-    border-bottom: 1px solid var(--blood-orange);
+.noBooks{
+    text-align: center;
+    color: var(--warning-or-error);
 }
 
 

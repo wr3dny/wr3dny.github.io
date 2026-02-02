@@ -1,3 +1,5 @@
+import { PageWithTable } from "../../components/PageWithTable/PageWithTable.tsx";
+
 export const MMModels = () => {
-  return <div>Mały Modelarz</div>;
+  return <PageWithTable />;
 };
