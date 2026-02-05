@@ -1,11 +1,21 @@
 import { useQuery } from "@tanstack/react-query";
 import { apiGet } from "../http.ts";
 import { ENDPOINTS } from "../endpoints.ts";
-import type { Book } from "../../pages/Books/Books.tsx";
+
+export type Wasgij = {
+  id: number;
+  series: string;
+  publisher: string;
+  numberInSeries: number;
+  title: string;
+  pieces: number;
+  piecesInBox: number;
+  owned: boolean;
+};
 
 export const useWasgijQuery = () => {
-  return useQuery<Book[], Error>({
+  return useQuery<Wasgij[], Error>({
     queryKey: ["files", "books"],
-    queryFn: () => apiGet<Book[]>(ENDPOINTS.books),
+    queryFn: () => apiGet<Wasgij[]>(ENDPOINTS.books),
   });
 };
