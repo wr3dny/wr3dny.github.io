@@ -8,54 +8,98 @@
     --shadow-elev: 0 10px 28px rgba(0, 0, 0, 0.20);
     --shadow-soft: 0 8px 18px rgba(0, 0, 0, 0.14);
 
-    --bg-image-opacity: 0.38;
-
     --warning-or-error: #f44336;
+
+    /* background system */
+    --bg-image: none;
+    --bg-image-opacity: 0.34;
+    --bg-overlay: rgba(255, 255, 255, 0.60);
 }
 
 /* =========================
    DAY THEME
    ========================= */
 :root[data-theme="day"] {
-    background-image: url("../assets/bgDay.png");
-    background-size: cover;
-    background-position: center;
-
-    --c-bg: #F4E6D2;         /* page background (parchment) */
-    --c-surface: #F8F0E3;    /* main cards/panels */
-    --c-surface-2: #EFE3D2;  /* inner panels / table header band */
-    --c-text: #2A2420;       /* primary text */
-    --c-text-muted: #6A5B52; /* secondary text */
-    --c-accent: #D27A3A;     /* orange accent (tabs / highlights) */
-    --c-accent-2: #7A5AA6;   /* purple accent (links / selected) */
-    --c-border: #D8C6B1;     /* outlines / separators */
-    --c-shadow: rgba(80, 55, 35, 0.20); /* theme shadow tint */
-
+    --bg-image: url("../assets/bgDay.png");
     --bg-image-opacity: 0.34;
+    --bg-overlay: rgba(255, 255, 255, 0.60);
+
+    --c-bg: #F4E6D2;
+    --c-surface: #F8F0E3;
+    --c-surface-2: #EFE3D2;
+    --c-text: #2A2420;
+    --c-text-muted: #6A5B52;
+    --c-accent: #D27A3A;
+    --c-accent-2: #7A5AA6;
+    --c-border: #D8C6B1;
+    --c-shadow: rgba(80, 55, 35, 0.20);
 }
 
 /* =========================
    NIGHT THEME
    ========================= */
 :root[data-theme="night"] {
-    background-image: url("../assets/bgNight.png");
-    background-size: cover;
-    background-position: center;
-
-    --c-bg: #0E1626;         /* deep navy */
-    --c-surface: #141F33;    /* main cards/panels */
-    --c-surface-2: #0F1A2B;  /* inner panels / table header band */
-    --c-text: #E7EEF7;       /* primary text */
-    --c-text-muted: #A9B6C8; /* secondary text */
-    --c-accent: #E39A57;     /* warm accent for pills */
-    --c-accent-2: #8CB4FF;   /* cool accent for links/selected */
-    --c-border: #2A3A57;     /* outlines / separators */
-    --c-shadow: rgba(0, 0, 0, 0.55); /* theme shadow tint */
-
+    --bg-image: url("../assets/bgNight.png");
     --bg-image-opacity: 0.24;
+    --bg-overlay: rgba(0, 0, 0, 0.52);
 
+    --c-bg: #0E1626;
+    --c-surface: #141F33;
+    --c-surface-2: #0F1A2B;
+    --c-text: #E7EEF7;
+    --c-text-muted: #A9B6C8;
+    --c-accent: #E39A57;
+    --c-accent-2: #8CB4FF;
+    --c-border: #2A3A57;
+    --c-shadow: rgba(0, 0, 0, 0.55);
+}
+
+/* =========================
+   GLOBAL BASE
+   ========================= */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+html {
+    background: var(--c-bg); /* fallback */
 }
 
 body {
+    background: transparent; /* ważne: nie zasłania warstw tła */
     color: var(--c-text);
+    position: relative;
+}
+
+/* =========================
+   BACKGROUND LAYERS
+   ========================= */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: var(--bg-image-opacity);
+    pointer-events: none;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background: var(--bg-overlay);
+    pointer-events: none;
 }

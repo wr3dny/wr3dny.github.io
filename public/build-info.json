@@ -1,5 +1,5 @@
 {
-  "commitSha": "ed18940a072b261d42e4a24425ff80e0a0a7fe5a",
-  "commitDate": "2026-01-27T00:04:32+01:00",
-  "commitMessage": "New build-info.json"
+  "commitSha": "85644867f7ae181b4864fadaf771f8090e3ee4dd",
+  "commitDate": "2026-02-02T14:06:34+01:00",
+  "commitMessage": "v. 0.5.0 - Updated api - getting more information from BE."
 }
