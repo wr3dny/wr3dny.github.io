@@ -25,18 +25,17 @@
     margin-top: 2px;
 }
 
-.loading {
-    font-size: xx-large;
-    color: var(--pumpkin-puree)
-}
-
-.ok {
-    font-size: xx-large;
-    color: var(--forest-moss);
-}
-
 .letter{
     width: 75px;
     height: 75px;
     padding-left: 10px;
 }
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
