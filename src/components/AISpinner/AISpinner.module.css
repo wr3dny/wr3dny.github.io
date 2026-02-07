@@ -1,0 +1,63 @@
+.decoSunburst {
+    width: 96px;
+    height: 96px;
+    display: grid;
+    place-items: center;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.45));
+}
+
+.decoSunburst svg {
+    overflow: visible;
+}
+
+.rays rect {
+    fill: rgba(214, 179, 95, 0.55);
+}
+
+.ring {
+    fill: none;
+    stroke: rgba(214, 179, 95, 0.65);
+    stroke-width: 6;
+    stroke-linecap: square;
+    stroke-dasharray: 16 10; /* "stepped" look */
+}
+
+.ring2 {
+    stroke: rgba(243, 226, 179, 0.65);
+    stroke-width: 5;
+    stroke-dasharray: 10 8;
+}
+
+.jewel {
+    fill: url(#decoJewel);
+}
+
+/* Animations */
+.rays {
+    transform-origin: 60px 60px;
+    animation: decoRotate 1.15s linear infinite;
+}
+
+.ring1 {
+    transform-origin: 60px 60px;
+    animation: decoRotate 1.35s linear infinite reverse;
+}
+
+.ring2 {
+    transform-origin: 60px 60px;
+    animation: decoRotate 1.8s linear infinite;
+}
+
+@keyframes decoRotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .rays,
+    .ring1,
+    .ring2 {
+        animation: none !important;
+    }
+}

@@ -1,3 +1,5 @@
+import styles from "./CustomTable.module.css";
+
 export type CellValue = string | number | boolean | null;
 export type TableRow = Record<string, CellValue>;
 
@@ -12,7 +14,7 @@ export const CustomTable = ({ caption, columns, rows }: Props) => {
     <table>
       <caption>{caption}</caption>
 
-      <thead>
+      <thead className={styles.header}>
         <tr>
           {columns.map((column) => (
             <th key={column}>{column}</th>

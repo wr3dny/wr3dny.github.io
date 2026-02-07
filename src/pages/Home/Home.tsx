@@ -1,6 +1,7 @@
 import { useHealthQuery } from "../../api/queries/useHealthQuery.ts";
 
 import styles from "./Home.module.css";
+import { AIloaderBar } from "../../components/AIloadingBar/AIloadingBar.tsx";
 
 const homeTxt = [
   "This page suppose to be polished few years ago",
@@ -28,11 +29,13 @@ export const Home = () => {
       <div className={styles.home}>
         <p className={statusClass}>
           {" "}
-          {health.isLoading
-            ? "<insert loading banner>"
-            : health.isError
-              ? health.error.message
-              : `API says:${health.data?.status}`}
+          {health.isLoading ? (
+            <AIloaderBar />
+          ) : health.isError ? (
+            health.error.message
+          ) : (
+            `API says:${health.data?.status}`
+          )}
         </p>
 
         {health.data &&
