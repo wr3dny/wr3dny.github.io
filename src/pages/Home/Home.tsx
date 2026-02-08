@@ -1,7 +1,7 @@
 import { useHealthQuery } from "../../api/queries/useHealthQuery.ts";
 
 import styles from "./Home.module.css";
-import { AIloaderBar } from "../../components/AIloadingBar/AIloadingBar.tsx";
+import { AIloaderBar } from "../../componentsAI/AIloadingBar/AIloadingBar.tsx";
 import { NoteField } from "../../components/NoteField/NoteField.tsx";
 
 const homeTxt = [
