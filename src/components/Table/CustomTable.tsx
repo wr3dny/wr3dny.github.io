@@ -14,7 +14,9 @@ export const CustomTable = ({ columns, rows }: Props) => {
       <thead className={styles.header}>
         <tr>
           {columns.map((column) => (
-            <th key={column}>{column}</th>
+            <th key={column} className={styles.thead}>
+              {column}
+            </th>
           ))}
         </tr>
       </thead>
