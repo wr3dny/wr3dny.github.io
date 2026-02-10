@@ -1,5 +1,10 @@
-import { PageWithTable } from "../../components/PageWithTable/PageWithTable.tsx";
+// import { useDataToTableTransformer } from "../../hooks/useDataToTableTransformer.ts";
+
+// export const Wasgij = ("books") => {
+//   const { meta } = useDataToTableTransformer("books");
+//   return <div>Wasgij</div>;
+// };
 
 export const Wasgij = () => {
-  return <PageWithTable />;
+  return <div>Wasgij</div>;
 };

@@ -4,16 +4,13 @@ export type CellValue = string | number | boolean | null;
 export type TableRow = Record<string, CellValue>;
 
 interface Props {
-  caption: string;
   columns: string[];
   rows: TableRow[];
 }
 
-export const CustomTable = ({ caption, columns, rows }: Props) => {
+export const CustomTable = ({ columns, rows }: Props) => {
   return (
     <table>
-      <caption>{caption}</caption>
-
       <thead className={styles.header}>
         <tr>
           {columns.map((column) => (

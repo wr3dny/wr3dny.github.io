@@ -10,7 +10,7 @@ export const NoteField = ({ header, text }: Props) => {
     <div className={styles.wrapper}>
       <div className={styles.header}>{header}</div>
       {text.map((item) => (
-        <div className={styles.item}>{item}</div>
+        <p className={styles.item}>{item}</p>
       ))}
     </div>
   );

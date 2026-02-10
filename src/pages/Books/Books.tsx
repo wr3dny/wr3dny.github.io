@@ -1,25 +1,19 @@
 import { type Book, useBooksQuery } from "../../api/queries/useBooksQuery.ts";
-import { CustomTable } from "../../components/Table/CustomTable.tsx";
+import {
+  type CellValue,
+  CustomTable,
+} from "../../components/Table/CustomTable.tsx";
 import { useFileMetaQuery } from "../../api/queries/useFileMetaQuery.ts";
 
 import styles from "./Books.module.css";
+import { useToCellValue } from "../../hooks/useToCellValue .ts";
 
-type CellValue = string | number | boolean | null;
 type TableRow = Record<string, CellValue>;
-
-const toCellValue = (v: unknown): CellValue => {
-  if (v === null) return "";
-  if (v === undefined) return "";
-  if (typeof v === "string") return v;
-  if (typeof v === "number") return v;
-  if (typeof v === "boolean") return v;
-
-  return String(v);
-};
 
 export const Books = () => {
   const { data: books } = useBooksQuery();
   const { data: meta } = useFileMetaQuery("books");
+  const { toCellValue } = useToCellValue();
 
   if (!books || books.length === 0) {
     return <p className={styles.noFound}>No books found</p>;
@@ -34,7 +28,7 @@ export const Books = () => {
       return row;
     });
 
-    return <CustomTable caption="Books" columns={keys} rows={rows} />;
+    return <CustomTable columns={keys} rows={rows} />;
   }
 
   const columns: string[] = ["ID", ...meta.fields.map(([, label]) => label)];
@@ -51,11 +45,5 @@ export const Books = () => {
     return row;
   });
 
-  return (
-    <CustomTable
-      caption={meta.label ?? "Books"}
-      columns={columns}
-      rows={rows}
-    />
-  );
+  return <CustomTable columns={columns} rows={rows} />;
 };

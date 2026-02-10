@@ -70,7 +70,7 @@ html {
 }
 
 body {
-    background: transparent; /* ważne: nie zasłania warstw tła */
+    background: transparent;
     color: var(--c-text);
     position: relative;
 }
