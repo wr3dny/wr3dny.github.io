@@ -34,8 +34,9 @@
 .notes {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     gap: 15px;
 }
+
 

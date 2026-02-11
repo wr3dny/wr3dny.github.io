@@ -14,14 +14,12 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    setIsMenuOpen(true);
+    setIsMenuOpen(false);
   }, [location.pathname]);
-
-  console.log(location.pathname);
 
   return (
     <div className={styles.container}>
-      <NavLogo />
+      <NavLogo onNavigate={() => setIsMenuOpen(false)} />
       <div className={styles.actionButtons}>
         <ThemeToggleButton />
         <div className={styles.secondLine}>

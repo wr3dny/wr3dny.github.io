@@ -42,7 +42,7 @@ export const Home = () => {
         <div>I think you might have gotten lost...</div>
       </div>
       <div className={styles.home}>
-        <p className={statusClass}>
+        <div className={statusClass}>
           {" "}
           {health.isLoading ? (
             <AIloaderBar />
@@ -51,7 +51,7 @@ export const Home = () => {
           ) : (
             `API says:${health.data?.status}`
           )}
-        </p>
+        </div>
 
         {health.data && (
           <div className={styles.notes}>
