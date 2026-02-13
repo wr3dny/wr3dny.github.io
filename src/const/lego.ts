@@ -20,14 +20,13 @@ export const LegoWishlist: LegoSet[] = [
   },
 
   {
-    setNumber: 10372,
-    year: 2025,
-    price: 179,
-    url: "https://zklockow.pl/lego-75408-star-wars-helm-jango-fetta",
-    image:
-      "https://zklockow.pl/img/960/lego-star-wars-75408-helm-jango-fetta-1.jpg",
-    alt: "JangoFett",
-    series: "StarWars",
+    setNumber: 11367,
+    year: 2026,
+    price: 450,
+    url: "https://zklockow.pl/lego-11376-icons-ford-model-t",
+    image: "https://zklockow.pl/img/lego-icons-11376-ford-model-t-1.jpg",
+    alt: "ford",
+    series: "Icons",
   },
   {
     setNumber: 11504,
@@ -40,13 +39,14 @@ export const LegoWishlist: LegoSet[] = [
     series: "Botanicals",
   },
   {
-    setNumber: 11731,
-    year: 2026,
-    price: 1099,
-    url: "https://zklockow.pl/lego-11371-icons-ulica-handlowa",
-    image: "https://zklockow.pl/img/960/lego-icons-11371-ulica-handlowa-1.jpg",
-    alt: "Shop",
-    series: "Icons",
+    setNumber: 21063,
+    year: 2025,
+    price: 838,
+    url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
+    image:
+      "https://zklockow.pl/img/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
+    alt: "Castle",
+    series: "Architecture",
   },
   {
     setNumber: 11373,
