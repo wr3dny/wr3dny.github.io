@@ -13,13 +13,30 @@
 
 .display {
   display: flex;
+    box-sizing: border-box;
   flex-direction: row;
-  /*border-left: 2px solid var(--blood-orange);*/
-  /*border-top: 2px solid var(--blood-orange);*/
   border-radius: 45px 0 0 0 ;
   width: 60%;
   justify-content: flex-end;
   align-items: center;
+    background:
+            radial-gradient(
+                    120% 140% at 10% 0%,
+                    color-mix(in srgb, var(--c-surface) 74%, transparent) 0%,
+                    transparent 55%
+            ),
+            radial-gradient(
+                    120% 140% at 90% 100%,
+                    color-mix(in srgb, var(--c-surface-2) 70%, transparent) 0%,
+                    transparent 60%
+            ),
+            linear-gradient(
+                    135deg,
+                    color-mix(in srgb, var(--c-surface) 78%, transparent),
+                    color-mix(in srgb, var(--c-surface-2) 72%, transparent)
+            );
+
+    border: 1px solid color-mix(in srgb, var(--c-border) 70%, transparent);
 }
 
 
@@ -40,3 +57,5 @@
   padding-right: 2rem;
   font-size: large;
 }
+
+

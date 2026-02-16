@@ -5,11 +5,12 @@ import { AIloaderBar } from "../../componentsAI/AIloadingBar/AIloadingBar.tsx";
 import { NoteField } from "../../components/NoteField/NoteField.tsx";
 
 const homeTxt = [
-  "This page suppose to be polished few years ago",
-  "But lack of time and tons of ideas got me nowhere",
-  "So, as new year started I started (re)building this page",
-  "With some kind of 'plan' ( big word ) ",
-  "First let it work, then let it look",
+  "component for done things ( list + check box ) ",
+  "- correct paddings for navbar",
+  "- change and correct footer display",
+  "- page with table as generic component",
+  "- hook for page/table ",
+  "- changelist - ",
 ];
 
 const completeThings = [
@@ -35,11 +36,23 @@ export const Home = () => {
       ? styles.error
       : styles.ok;
 
+  const ToDOList = () => {
+    return (
+      <div>
+        <p>Short TODO list</p>
+        <ul>
+          {homeTxt.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
+
   return (
     <>
       <div className={styles.permanent}>
         <div className={styles.left}>Welcome traveler to my homePage</div>
-        <div>I think you might have gotten lost...</div>
       </div>
       <div className={styles.home}>
         <div className={statusClass}>
@@ -55,7 +68,7 @@ export const Home = () => {
 
         {health.data && (
           <div className={styles.notes}>
-            <NoteField header="Site story" text={homeTxt} />
+            <ToDOList />
             <NoteField header="Things done" text={completeThings} />
             <NoteField header="Things TODO ?" text={consideratingThings} />
           </div>

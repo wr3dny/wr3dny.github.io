@@ -1,14 +1,22 @@
-import { CustomTable, type TableRow } from "../Table/CustomTable.tsx";
+// import { CustomTable, type TableRow } from "../Table/CustomTable.tsx";
+//
+// interface Props {
+//   columns: string[];
+//   rows: TableRow[];
+// }
+//
+// export const PageWithTable = ({ columns, rows }: Props) => {
+//   return (
+//     <div>
+//       <CustomTable columns={columns} rows={rows} />
+//     </div>
+//   );
+// };
 
 interface Props {
-  columns: string[];
-  rows: TableRow[];
+  name: string;
 }
 
-export const PageWithTable = ({ columns, rows }: Props) => {
-  return (
-    <div>
-      <CustomTable columns={columns} rows={rows} />
-    </div>
-  );
+export const PageWithTable = ({ name }: Props) => {
+  return <div>{name}</div>;
 };

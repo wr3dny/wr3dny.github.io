@@ -26,8 +26,6 @@ export const Footer = () => {
     : undefined;
 
   const today = new Date();
-  // const todayDisplay = new Date().toISOString().split("T")[0];
-
   const MS_IN_DAY = 1000 * 60 * 60 * 24;
 
   const daysSinceLastCommit = lastCommitDate
