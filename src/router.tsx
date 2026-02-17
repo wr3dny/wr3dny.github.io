@@ -12,7 +12,7 @@ export const RouterConfig = () => {
   return (
     <Routes>
       <Route path={"/"} element={<Home />} />
-      <Route path={PATHS.GALLERY} element={<Gallery />} />
+      <Route path={`${PATHS.GALLERY}/*`} element={<Gallery />} />
       <Route path={PATHS.BOOKS} element={<Books />} />
       <Route path={PATHS.LEGO} element={<Lego />} />
       <Route path={PATHS.WASGIJ} element={<Wasgij />} />

@@ -1,0 +1,61 @@
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.navBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    border: none;
+    background: rgba(0, 0, 0, 0.45);
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.left {
+    left: 8px;
+}
+
+.right {
+    right: 8px;
+}
+
+.dotsWrap {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    opacity: 0.35;
+    transition: opacity 150ms ease;
+}
+
+.dotActive {
+    opacity: 1;
+}
