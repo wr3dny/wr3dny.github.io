@@ -58,4 +58,13 @@ export const LegoWishlist: LegoSet[] = [
     alt: "Sauron",
     series: "Icons",
   },
+  {
+    setNumber: 11376,
+    year: 2026,
+    price: 449,
+    url: "https://zklockow.pl/lego-11376-icons-ford-model-t",
+    image: "https://zklockow.pl/img/960/lego-icons-11376-ford-model-t-1.jpg",
+    alt: "FordT",
+    series: "Icons",
+  },
 ];
