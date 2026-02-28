@@ -16,7 +16,10 @@ export const RouterConfig = () => {
       <Route path={PATHS.BOOKS} element={<Books />} />
       <Route path={PATHS.LEGO} element={<Lego />} />
       <Route path={PATHS.WASGIJ} element={<Wasgij />} />
-      <Route path={PATHS.MODELS} element={<PageWithTable name="Models" />} />
+      <Route
+        path={PATHS.MODELS}
+        element={<PageWithTable name="Mały Modelarz" />}
+      />
     </Routes>
   );
 };

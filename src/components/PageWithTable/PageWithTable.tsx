@@ -13,10 +13,12 @@
 //   );
 // };
 
+import styles from "./PageWithTable.module.css";
+
 interface Props {
   name: string;
 }
 
 export const PageWithTable = ({ name }: Props) => {
-  return <div>{name}</div>;
+  return <div className={styles.wrapper}>{name}</div>;
 };
