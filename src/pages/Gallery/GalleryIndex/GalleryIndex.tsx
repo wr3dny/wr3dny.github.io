@@ -1,6 +1,8 @@
 import { GALLERIES } from "../galleries.data.ts";
 import { Link } from "react-router-dom";
 
+import styles from "./GalleryIndex.module.css";
+
 export const GalleryIndex = () => {
   return (
     <div>
@@ -8,7 +10,7 @@ export const GalleryIndex = () => {
 
       <div>
         {GALLERIES.map((gal) => (
-          <Link key={gal.id} to={`/gallery/${gal.id}`}>
+          <Link key={gal.id} to={`/gallery/${gal.id}`} className={styles.link}>
             <img src={gal.coverSrc} alt={`${gal.title} cover`} />
             <h3>{gal.title}</h3>
 
