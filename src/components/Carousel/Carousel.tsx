@@ -7,6 +7,7 @@ type Photo = { src: string; alt?: string };
 
 type Props = {
   photos: Photo[];
+  initialIndex?: number;
 };
 
 export const Carousel = ({ photos }: Props) => {

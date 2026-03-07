@@ -1,7 +1,6 @@
-// import { Route, Routes } from "react-router-dom";
-
 import { Route, Routes } from "react-router-dom";
-import {GalleryIndex} from "./GalleryIndex/GalleryIndex.tsx";
+import { GalleryIndex } from "./GalleryIndex/GalleryIndex.tsx";
+import { GalleryDetail } from "./GalleryDetails/GalleryDetails.tsx";
 
 export const Gallery = () => {
   return (
@@ -10,10 +9,8 @@ export const Gallery = () => {
 
       <Routes>
         <Route index element={<GalleryIndex />} />
-
-        {/*<Route path=":galleryId" element={<GalleryDetail />} />*/}
-        
-        {/*<Route path=":galleryId/:photoId" element={<GalleryDetail />} />*/}
+        <Route path=":galleryId" element={<GalleryDetail />} />
+        <Route path=":galleryId/:photoId" element={<GalleryDetail />} />
       </Routes>
     </>
   );
