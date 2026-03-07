@@ -1,12 +1,24 @@
+.link {
+    text-decoration: none;
+    display: inline-flex;
+}
+
 .container {
     display: flex;
-    width: 100%;
+    width: calc(100% - 20px);
     margin: 0;
+    padding: 10px ;
 
     position: sticky;
     top: 0;
     z-index: 1000;
 
+}
+
+
+.actionButtons {
+    display: flex;
+    gap: 2px;
 }
 
 .firstLine, .secondLine {
@@ -22,8 +34,10 @@
 
 .navButtons {
     display: flex;
+
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 4px;
 }
 
 .actions {
@@ -35,8 +49,6 @@
 
     height: 39px;
     width: 39px;
-    padding: 0;
-    margin-left: 5px;
 
     border-radius: 50%;
     background: linear-gradient(

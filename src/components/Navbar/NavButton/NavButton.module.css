@@ -6,13 +6,13 @@
 
 .disabled {
     pointer-events: none;
-    opacity: 0.55;
+    opacity: 0.35;
 }
 
 .btn {
     box-sizing: border-box;
     width: 150px;
-    height: 34px;
+    height: 39px;
     padding: 6px 10px;
 
     display: inline-flex;
@@ -53,7 +53,7 @@
     -webkit-backdrop-filter: blur(var(--blur-soft));
 
     /* typography polish */
-    letter-spacing: 0.2px;
+    letter-spacing: 1px;
     user-select: none;
 
     transition:
