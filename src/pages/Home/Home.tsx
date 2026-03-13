@@ -62,7 +62,7 @@ export const Home = () => {
           ) : health.isError ? (
             health.error.message
           ) : (
-            `API says:${health.data?.status}`
+            `API status:${health.data?.status}`
           )}
         </div>
 

@@ -10,7 +10,7 @@ interface Props {
 
 export const CustomTable = ({ columns, rows }: Props) => {
   return (
-    <table>
+    <table className={styles.table}>
       <thead className={styles.header}>
         <tr>
           {columns.map((column) => (

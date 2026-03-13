@@ -1,3 +1,8 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .noBooks{
     text-align: center;
     color: var(--warning-or-error);

@@ -12,7 +12,7 @@ export type PaperModel = {
 
 export const usePaperModelQuery = () => {
   return useQuery<PaperModel[], Error>({
-    queryKey: ["files", "books"],
-    queryFn: () => apiGet<PaperModel[]>(ENDPOINTS.books),
+    queryKey: ["files", "paperModels"],
+    queryFn: () => apiGet<PaperModel[]>(ENDPOINTS.paperModels),
   });
 };

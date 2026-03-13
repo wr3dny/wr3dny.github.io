@@ -6,7 +6,7 @@ import { Home } from "./pages/Home/Home";
 import { Gallery } from "./pages/Gallery/Gallery.tsx";
 import { Books } from "./pages/Books/Books.tsx";
 import { Wasgij } from "./pages/Wasgij/Wasgij.tsx";
-import { PageWithTable } from "./components/PageWithTable/PageWithTable.tsx";
+import { Models } from "./pages/Models/Models.tsx";
 
 export const RouterConfig = () => {
   return (
@@ -16,10 +16,7 @@ export const RouterConfig = () => {
       <Route path={PATHS.BOOKS} element={<Books />} />
       <Route path={PATHS.LEGO} element={<Lego />} />
       <Route path={PATHS.WASGIJ} element={<Wasgij />} />
-      <Route
-        path={PATHS.MODELS}
-        element={<PageWithTable name="Mały Modelarz" />}
-      />
+      <Route path={PATHS.MODELS} element={<Models />} />
     </Routes>
   );
 };

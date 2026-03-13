@@ -45,5 +45,9 @@ export const Books = () => {
     return row;
   });
 
-  return <CustomTable columns={columns} rows={rows} />;
+  return (
+    <div className={styles.wrapper}>
+      <CustomTable columns={columns} rows={rows} />;
+    </div>
+  );
 };
