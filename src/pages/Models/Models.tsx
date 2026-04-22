@@ -15,6 +15,8 @@ export const Models = () => {
   const { data: meta } = useFileMetaQuery("paperModels");
   const { toCellValue } = useToCellValue();
 
+  console.log("models", models);
+
   if (!models || models.length === 0) {
     return <p className={styles.noFound}>No books found</p>;
   }
@@ -37,6 +39,8 @@ export const Models = () => {
   const rows: TableRow[] = models.map((model) => {
     const record = model as Record<string, unknown>;
     const row: TableRow = { ID: toCellValue(record[idKey]) };
+
+    console.log("row", row);
 
     for (const [fieldKey, label] of meta.fields) {
       row[label] = toCellValue(record[fieldKey]);
