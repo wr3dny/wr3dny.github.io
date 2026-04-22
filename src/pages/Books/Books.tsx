@@ -6,7 +6,7 @@ import {
 import { useFileMetaQuery } from "../../api/queries/useFileMetaQuery.ts";
 
 import styles from "./Books.module.css";
-import { useToCellValue } from "../../hooks/useToCellValue .ts";
+import { useToCellValue } from "../../hooks/useToCellValue.ts";
 
 type TableRow = Record<string, CellValue>;
 

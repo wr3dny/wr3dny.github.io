@@ -3,7 +3,7 @@ import {
   type TableRow,
 } from "../../components/Table/CustomTable.tsx";
 import { useFileMetaQuery } from "../../api/queries/useFileMetaQuery.ts";
-import { useToCellValue } from "../../hooks/useToCellValue .ts";
+import { useToCellValue } from "../../hooks/useToCellValue.ts";
 import styles from "../Books/Books.module.css";
 import {
   type PaperModel,
@@ -15,18 +15,23 @@ export const Models = () => {
   const { data: meta } = useFileMetaQuery("paperModels");
   const { toCellValue } = useToCellValue();
 
-  console.log("models", models);
+  const ownedModels = models?.filter((model) => model.owned !== false);
 
-  if (!models || models.length === 0) {
-    return <p className={styles.noFound}>No books found</p>;
+  if (!ownedModels || ownedModels.length === 0) {
+    return <p className={styles.noFound}>No models found</p>;
   }
 
   if (!meta) {
-    const keys = Object.keys(models[0] as PaperModel);
-    const rows: TableRow[] = models.map((model) => {
+    const keys = Object.keys(ownedModels[0] as PaperModel);
+
+    const rows: TableRow[] = ownedModels.map((model) => {
       const record = model as Record<string, unknown>;
       const row: TableRow = {};
-      for (const key of keys) row[key] = toCellValue(record[key]);
+
+      for (const key of keys) {
+        row[key] = toCellValue(record[key]);
+      }
+
       return row;
     });
 
@@ -36,11 +41,11 @@ export const Models = () => {
   const columns: string[] = ["ID", ...meta.fields.map(([, label]) => label)];
   const idKey = meta.idKey || "id";
 
-  const rows: TableRow[] = models.map((model) => {
+  const rows: TableRow[] = ownedModels.map((model) => {
     const record = model as Record<string, unknown>;
-    const row: TableRow = { ID: toCellValue(record[idKey]) };
-
-    console.log("row", row);
+    const row: TableRow = {
+      ID: toCellValue(record[idKey]),
+    };
 
     for (const [fieldKey, label] of meta.fields) {
       row[label] = toCellValue(record[fieldKey]);
