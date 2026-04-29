@@ -38,14 +38,11 @@ export const Models = () => {
     return <CustomTable columns={keys} rows={rows} />;
   }
 
-  const columns: string[] = ["ID", ...meta.fields.map(([, label]) => label)];
-  const idKey = meta.idKey || "id";
+  const columns: string[] = meta.fields.map(([, label]) => label);
 
   const rows: TableRow[] = ownedModels.map((model) => {
     const record = model as Record<string, unknown>;
-    const row: TableRow = {
-      ID: toCellValue(record[idKey]),
-    };
+    const row: TableRow = {};
 
     for (const [fieldKey, label] of meta.fields) {
       row[label] = toCellValue(record[fieldKey]);
