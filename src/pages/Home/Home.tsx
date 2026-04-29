@@ -2,7 +2,7 @@ import { useHealthQuery } from "../../api/queries/useHealthQuery.ts";
 
 import styles from "./Home.module.css";
 import { AIloaderBar } from "../../componentsAI/AIloadingBar/AIloadingBar.tsx";
-import { NoteField } from "../../components/NoteField/NoteField.tsx";
+// import { NoteField } from "../../components/NoteField/NoteField.tsx";
 
 // const homeTxt = [
 //   "component for done things ( list + check box ) ",
@@ -13,19 +13,20 @@ import { NoteField } from "../../components/NoteField/NoteField.tsx";
 //   "- changelist - ",
 // ];
 
-const completeThings = [
-  "Working navbar",
-  "Added AI generated component - loading bar",
-  "Change display things at home",
-];
-
-const consideratingThings = [
-  "Introduce i18next and pl/eng switch",
-  "Writing test - vitest",
-  "React hook form to edit lists",
-  "zustand to keep changed things at bay before sending to BE",
-  " Carousel for gallery's",
-];
+// const completeThings = [
+//   "Return to project :)",
+//   "Working navbar",
+//   "Added AI generated component - loading bar",
+//   "Change display things at home",
+// ];
+//
+// const consideratingThings = [
+//   "Introduce i18next and pl/eng switch",
+//   "Writing test - vitest",
+//   "React hook form to edit lists",
+//   "zustand to keep changed things at bay before sending to BE",
+//   " Carousel for gallery's",
+// ];
 
 export const Home = () => {
   const health = useHealthQuery();
@@ -69,8 +70,9 @@ export const Home = () => {
         {health.data && (
           <div className={styles.notes}>
             {/*<NoteField header="TODO list" text={<ToDOList />} />*/}
-            <NoteField header="Things done" text={completeThings} />
-            <NoteField header="Things TODO ?" text={consideratingThings} />
+            {/*<NoteField header="Things done" text={completeThings} />*/}
+            {/*<NoteField header="Things TODO ?" text={consideratingThings} />*/}
+            CURRENTLY UNDER RETHINKING PROJECT
           </div>
         )}
       </div>
