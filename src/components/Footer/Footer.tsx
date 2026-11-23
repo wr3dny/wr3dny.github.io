@@ -1,5 +1,5 @@
-import styles from "./Footer.module.css";
 import { useEffect, useState } from "react";
+import styles from "./Footer.module.css";
 
 type BuildInfo = {
   commitSha: string;
@@ -7,74 +7,57 @@ type BuildInfo = {
   commitMessage: string;
 };
 
+const isBuildInfo = (value: unknown): value is BuildInfo => {
+  if (typeof value !== "object" || value === null) return false;
+  const record = value as Record<string, unknown>;
+  return (
+    typeof record.commitSha === "string" &&
+    typeof record.commitDate === "string" &&
+    typeof record.commitMessage === "string"
+  );
+};
+
 export const Footer = () => {
   const [info, setInfo] = useState<BuildInfo | null>(null);
 
   useEffect(() => {
-    fetch("/build-info.json")
-      .then((r) =>
-        r.ok ? r.json() : Promise.reject(new Error("No build info")),
-      )
-      .then(setInfo)
-      .catch(() => setInfo(null));
+    const controller = new AbortController();
+
+    fetch(`${import.meta.env.BASE_URL}build-info.json`, {
+      signal: controller.signal,
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error("Build info unavailable");
+        return response.json() as Promise<unknown>;
+      })
+      .then((value) => setInfo(isBuildInfo(value) ? value : null))
+      .catch((error: unknown) => {
+        if (!(error instanceof DOMException && error.name === "AbortError")) {
+          setInfo(null);
+        }
+      });
+
+    return () => controller.abort();
   }, []);
 
-  const lastCommitMsg = info?.commitMessage;
-
-  const lastCommitDate = info?.commitDate
-    ? new Date(info.commitDate)
-    : undefined;
-
-  const today = new Date();
-  const MS_IN_DAY = 1000 * 60 * 60 * 24;
-
-  const daysSinceLastCommit = lastCommitDate
-    ? Math.floor((today.getTime() - lastCommitDate.getTime()) / MS_IN_DAY)
-    : undefined;
-
-  console.log(lastCommitMsg);
-
-  const backGrCol = (): string | undefined => {
-    if (daysSinceLastCommit === undefined) {
-      return undefined;
-    }
-
-    switch (true) {
-      case daysSinceLastCommit <= 1:
-        return "excellent";
-
-      case daysSinceLastCommit <= 3:
-        return "healthy";
-
-      case daysSinceLastCommit <= 7:
-        return "stable";
-
-      case daysSinceLastCommit <= 12:
-        return "stale";
-
-      case daysSinceLastCommit <= 18:
-        return "degrading";
-
-      case daysSinceLastCommit <= 25:
-        return "inactive";
-
-      default:
-        return "forgotten";
-    }
-  };
-
-  const bgClass = backGrCol();
+  const commitDate = info?.commitDate ? new Date(info.commitDate) : null;
+  const hasValidDate =
+    commitDate !== null && !Number.isNaN(commitDate.getTime());
 
   return (
-    <footer className={styles.wrapper}>
-      <div className={styles.hidden} />
-      <div className={styles.display}>
-        <div className={styles.commitMsg}>{lastCommitMsg}</div>
-        <div className={styles.footerInfo}>Days since last commit</div>
-        <div className={`${styles.commit} ${bgClass ? styles[bgClass] : ""}`}>
-          {!info ? "?" : `${daysSinceLastCommit}`}
-        </div>
-      </div>
+    <footer className={styles.footer}>
+      <span>Collectorium</span>
+      {hasValidDate && commitDate && (
+        <span className={styles.buildInfo}>
+          Ostatnia aktualizacja:{" "}
+          <time dateTime={commitDate.toISOString()}>
+            {new Intl.DateTimeFormat("pl-PL", { dateStyle: "medium" }).format(
+              commitDate,
+            )}
+          </time>
+          {info?.commitMessage ? ` — ${info.commitMessage}` : ""}
+        </span>
+      )}
     </footer>
   );
 };

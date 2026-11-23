@@ -1,59 +1,42 @@
+import { useMemo } from "react";
 import {
-  CustomTable,
-  type TableRow,
-} from "../../components/Table/CustomTable.tsx";
-import { useFileMetaQuery } from "../../api/queries/useFileMetaQuery.ts";
-import { useToCellValue } from "../../hooks/useToCellValue.ts";
-import styles from "../Books/Books.module.css";
-import {
-  type PaperModel,
-  usePaperModelQuery,
-} from "../../api/queries/usePaperModelQuery.ts";
+  PageWithTable,
+  type GroupedTableRow,
+} from "../../components/PageWithTable/PageWithTable";
+import { useJson } from "../../hooks/useJson";
+import type { PaperModel } from "../../types/collection";
+import type { TableColumn } from "../../types/table";
+
+const COLUMNS: TableColumn[] = [
+  { key: "number", label: "Numer", width: "7.5rem" },
+  { key: "scale", label: "Skala", width: "7.5rem" },
+  { key: "title", label: "Tytuł" },
+];
 
 export const Models = () => {
-  const { data: models } = usePaperModelQuery();
-  const { data: meta } = useFileMetaQuery("paperModels");
-  const { toCellValue } = useToCellValue();
+  const { data, error, isLoading } = useJson<PaperModel[]>("paperModels.json");
 
-  const ownedModels = models?.filter((model) => model.owned !== false);
-
-  if (!ownedModels || ownedModels.length === 0) {
-    return <p className={styles.noFound}>No models found</p>;
-  }
-
-  if (!meta) {
-    const keys = Object.keys(ownedModels[0] as PaperModel);
-
-    const rows: TableRow[] = ownedModels.map((model) => {
-      const record = model as Record<string, unknown>;
-      const row: TableRow = {};
-
-      for (const key of keys) {
-        row[key] = toCellValue(record[key]);
-      }
-
-      return row;
-    });
-
-    return <CustomTable columns={keys} rows={rows} />;
-  }
-
-  const columns: string[] = meta.fields.map(([, label]) => label);
-
-  const rows: TableRow[] = ownedModels.map((model) => {
-    const record = model as Record<string, unknown>;
-    const row: TableRow = {};
-
-    for (const [fieldKey, label] of meta.fields) {
-      row[label] = toCellValue(record[fieldKey]);
-    }
-
-    return row;
-  });
-
-  return (
-    <div className={styles.wrapper}>
-      <CustomTable columns={columns} rows={rows} />;
-    </div>
+  const rows = useMemo<GroupedTableRow[]>(
+    () =>
+      (data ?? []).map((model) => ({
+        id: model.id,
+        year: model.year,
+        owned: model.owned,
+        cells: {
+          number: model.number,
+          scale: model.scale,
+          title: model.title,
+        },
+      })),
+    [data],
   );
+
+  if (isLoading) return <p role="status">Ładowanie modeli…</p>;
+  if (error) {
+    return (
+      <p role="alert">Nie udało się pobrać modeli. Spróbuj odświeżyć stronę.</p>
+    );
+  }
+
+  return <PageWithTable columns={COLUMNS} rows={rows} />;
 };

@@ -1,44 +1,47 @@
-.home {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
+.page {
+  box-sizing: border-box;
+  width: min(100%, 72rem);
+  margin-inline: auto;
+  padding: clamp(40px, 10vw, 120px) clamp(20px, 6vw, 72px);
 }
 
-.permanent {
-    font-size: 32px;
-    margin-left: 15px;
+.intro {
+  max-width: 44rem;
 }
 
-.left{
-    padding-left: 10px;
+.intro h1 {
+  margin: 6px 0 16px;
+  color: var(--c-accent);
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 9vw, 5rem);
+  font-weight: 500;
+  line-height: 1;
 }
 
-.par{
-    font-size: xx-large;
-    text-align: right;
-    float: left;
-    margin-right: 10px;
-    margin-top: 2px;
+.intro p {
+  font-size: clamp(1rem, 3vw, 1.25rem);
 }
 
-.letter{
-    width: 75px;
-    height: 75px;
-    padding-left: 10px;
+.eyebrow {
+  color: var(--c-text-muted);
+  font-size: 0.875rem !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.notes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    gap: 15px;
+.note {
+  margin-top: 10px;
+  color: var(--c-text-muted);
+  font-style: italic;
 }
 
-
-.statusClass {
-    font-size: xx-large;
+.apiStatus {
+  width: fit-content;
+  margin-top: 48px;
+  padding: 10px 14px;
+  border-left: 3px solid var(--c-accent-2);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--c-surface);
+  color: var(--c-text-muted);
+  box-shadow: var(--shadow-soft);
 }
-
-

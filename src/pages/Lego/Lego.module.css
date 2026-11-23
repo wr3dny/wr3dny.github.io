@@ -1,62 +1,52 @@
 .page {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  box-sizing: border-box;
+  width: min(100%, 90rem);
+  margin-inline: auto;
+  padding: 24px clamp(16px, 4vw, 40px) 40px;
 }
 
-.item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.page h1 {
+  margin-top: 0;
+  font-family: var(--font-heading);
 }
 
-.mask {
-  width: 100%;
-  position: relative;
+.page > p {
+  margin: 0 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+  gap: 18px;
+}
+
+.card {
+  display: grid;
   overflow: hidden;
-  -webkit-mask-size: contain;
-  mask-size: contain;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-surface);
+  color: var(--c-text);
+  text-decoration: none;
+}
 
-  -webkit-mask-position: center;
-  mask-position: center;
+.card:hover {
+  border-color: var(--c-accent-2);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--c-accent-2);
+  outline-offset: 3px;
 }
 
 .card img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--c-surface-2);
+  object-fit: contain;
 }
 
-.card {
-  flex: 1 1 30%;
-  margin: 10px;
-}
-
-.table {
-  width: 100%;
-}
-
-@media (width <= 600px) {
-  .card {
-    width: 100%;
-  }
-  .page {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (601px <= width <= 1024px) {
-  .card {
-    width: 45%;
-  }
-  .page {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (1025px <= width) {
-  .card {
-    width: 25%;
-  }
+.card span {
+  padding: 10px 12px;
+  font-size: 0.9375rem;
 }

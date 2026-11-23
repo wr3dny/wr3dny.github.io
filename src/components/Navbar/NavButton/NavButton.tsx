@@ -5,23 +5,24 @@ import clsx from "clsx";
 interface Props {
   label: string;
   to: string;
-  disabled?: boolean;
+  active?: boolean;
   className?: string;
+  onNavigate?: () => void;
 }
 
 export const NavButton = ({
   label,
   to,
-  disabled = false,
+  active = false,
   className,
+  onNavigate,
 }: Props) => {
   return (
     <Link
       to={to}
-      className={clsx(styles.link, disabled && styles.disabled, className)}
-      onClick={disabled ? (e) => e.preventDefault() : undefined}
-      aria-disabled={disabled}
-      tabIndex={disabled ? -1 : 0}
+      className={clsx(styles.link, active && styles.active, className)}
+      onClick={onNavigate}
+      aria-current={active ? "page" : undefined}
     >
       <span className={styles.btn}>{label}</span>
     </Link>

@@ -1,3 +1,7 @@
+// Lista życzeń LEGO — edytuj ten plik ręcznie.
+// url = strona zestawu, image = adres zdjęcia (oba sprawdź w przeglądarce),
+// price = cena orientacyjna w zł. Strona sortuje zestawy od najtańszego.
+// Kolekcja posiadanych LEGO nie jest jeszcze zaimplementowana.
 export type LegoSet = {
   setNumber: number;
   price: number;
@@ -15,7 +19,7 @@ export const LegoWishlist: LegoSet[] = [
     url: "https://zklockow.pl/lego-10357-icons-shelby-cobra-427-s-c",
     image:
       "https://zklockow.pl/img/960/lego-icons-10357-shelby-cobra-427-s-c-1.jpg",
-    alt: "Cobra",
+    alt: "LEGO Icons Shelby Cobra 427 S/C",
     series: "Icons",
   },
   {
@@ -25,7 +29,7 @@ export const LegoWishlist: LegoSet[] = [
     url: "https://zklockow.pl/lego-11504-botanicals-skrzydlokwiat",
     image:
       "https://zklockow.pl/img/960/lego-botanicals-11504-skrzydlokwiat-1.jpg",
-    alt: "Wing",
+    alt: "LEGO Botanicals Skrzydłokwiat",
     series: "Botanicals",
   },
   {
@@ -35,7 +39,7 @@ export const LegoWishlist: LegoSet[] = [
     url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
     image:
       "https://zklockow.pl/img/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
-    alt: "Castle",
+    alt: "LEGO Architecture Zamek Neuschwanstein",
     series: "Architecture",
   },
   {
@@ -45,7 +49,7 @@ export const LegoWishlist: LegoSet[] = [
     url: "https://zklockow.pl/lego-11373-icons-wladca-pierscieni-helm-saurona",
     image:
       "https://zklockow.pl/img/960/lego-icons-11373-wladca-pierscieni-helm-saurona-1.jpg",
-    alt: "Sauron",
+    alt: "LEGO Icons Hełm Saurona",
     series: "Icons",
   },
   {
@@ -54,7 +58,7 @@ export const LegoWishlist: LegoSet[] = [
     price: 449,
     url: "https://zklockow.pl/lego-11376-icons-ford-model-t",
     image: "https://zklockow.pl/img/960/lego-icons-11376-ford-model-t-1.jpg",
-    alt: "FordT",
+    alt: "LEGO Icons Ford Model T",
     series: "Icons",
   },
 ];

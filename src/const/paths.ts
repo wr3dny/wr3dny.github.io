@@ -1,14 +1,15 @@
-export const PATHS: Record<string, string> = {
+export const PATHS = {
   HOME: "/",
   BOOKS: "/books",
-  GALLERY: "/gallery",
   LEGO: "/lego",
   MODELS: "/models",
   WASGIJ: "/wasgij",
-  GALLERY_DETAIL: "/gallery/:galleryId",
-};
+} as const;
 
-export const toGallery = () => PATHS.GALLERY;
-export const toGalleryDetail = (galleryId: string) => `/gallery/${galleryId}`;
-export const toGalleryPhoto = (galleryId: string, photoId: string) =>
-  `/gallery/${galleryId}/${photoId}`;
+/** Links shown in the top navigation, in this order. */
+export const NAV_ITEMS = [
+  { label: "Books", path: PATHS.BOOKS },
+  { label: "LEGO", path: PATHS.LEGO },
+  { label: "Models", path: PATHS.MODELS },
+  { label: "Wasgij", path: PATHS.WASGIJ },
+] as const;

@@ -1,0 +1,41 @@
+.control {
+  display: block;
+  width: 176px;
+  max-width: 100%;
+}
+
+.label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid var(--c-control-border);
+  border-radius: var(--radius-control);
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  font: inherit;
+  box-shadow: var(--shadow-soft);
+}
+
+.select:focus-visible {
+  outline: 2px solid var(--c-accent-2);
+  outline-offset: 3px;
+}
+
+@media (max-width: 360px) {
+  .control {
+    width: 152px;
+  }
+}

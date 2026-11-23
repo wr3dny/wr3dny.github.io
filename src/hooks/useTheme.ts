@@ -1,21 +1,30 @@
 import { useEffect, useState } from "react";
-
-type Theme = "day" | "night";
+import { isTheme, readStoredTheme, type Theme } from "../const/themes";
 
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    const saved = localStorage.getItem("theme");
-    return saved === "day" || saved === "night" ? saved : "day";
-  });
+  const [theme, setTheme] = useState<Theme>(readStoredTheme);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
-    localStorage.setItem("theme", theme);
+    try {
+      localStorage.setItem("theme", theme);
+    } catch {
+      // The selection still works for this visit when storage is unavailable.
+    }
   }, [theme]);
+
+  useEffect(() => {
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key === "theme" && isTheme(event.newValue)) {
+        setTheme(event.newValue);
+      }
+    };
+    window.addEventListener("storage", handleStorage);
+    return () => window.removeEventListener("storage", handleStorage);
+  }, []);
 
   return {
     theme,
     setTheme,
-    toggle: () => setTheme((t) => (t === "day" ? "night" : "day")),
   };
 }

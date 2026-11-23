@@ -1,12 +1,124 @@
+/* Books: a single-column list, designed first for a phone (about 390 px wide). */
 .wrapper {
-    display: flex;
-    justify-content: center;
+  box-sizing: border-box;
+  width: min(100%, 44rem);
+  margin-inline: auto;
+  padding: 16px 16px 40px;
 }
 
-.noBooks{
-    text-align: center;
-    color: var(--warning-or-error);
+.wrapper h1 {
+  margin: 0 0 12px;
+  font-family: var(--font-heading);
 }
 
+/* Search box: stays visible under the top bar while scrolling. */
+.search {
+  position: sticky;
+  top: var(--navbar-height, 0px);
+  z-index: 10;
+  padding: 8px 0 10px;
+  background: var(--c-bg);
+}
 
+.search label {
+  display: grid;
+  gap: 6px;
+}
 
+.searchLabel {
+  font-weight: 600;
+}
+
+.search input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  /* 16 px or more stops iPhone Safari from zooming in when you tap the field. */
+  font: inherit;
+  font-size: 1rem;
+  color: var(--c-text);
+  background: var(--c-surface);
+  border: 1px solid var(--c-control-border);
+  border-radius: var(--radius-control);
+}
+
+.search input:focus-visible {
+  outline: 2px solid var(--c-accent-2);
+}
+
+.count {
+  margin-top: 6px;
+  font-size: 0.875rem;
+  color: var(--c-text-muted);
+}
+
+/* One book = one card-like row. */
+.list,
+.editions {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  padding: 12px 2px;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.author {
+  color: var(--c-text-muted);
+}
+
+.series {
+  margin-top: 2px;
+  font-size: 0.875rem;
+  color: var(--c-text-muted);
+}
+
+/* Language versions with their formats, e.g. "PL paperback, ebook". */
+.editions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.edition {
+  padding: 2px 10px;
+  font-size: 0.875rem;
+  background: var(--c-surface-2);
+  border: 1px solid var(--c-border);
+  border-radius: 999px;
+}
+
+.language {
+  font-weight: 700;
+  color: var(--c-accent);
+}
+
+/* Shown when nothing matches: the answer to "do I own it?" is no. */
+.empty {
+  padding: 18px 16px;
+  margin-top: 8px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-left: 4px solid var(--c-accent);
+  border-radius: var(--radius-md);
+}
+
+.message,
+.error {
+  margin: 24px;
+  text-align: center;
+}
+
+.error {
+  color: var(--warning-or-error);
+}
