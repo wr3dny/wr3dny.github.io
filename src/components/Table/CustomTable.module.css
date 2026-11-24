@@ -1,11 +1,17 @@
 .table {
-    padding: 0 20px 100px 20px;
+  border-collapse: collapse;
+  color: var(--c-text);
 }
 
-.head {
-    border-bottom: 2px solid var(--c-border);
+.table th,
+.table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--c-border);
+  text-align: left;
+  vertical-align: top;
 }
 
 .thead {
-    border-bottom: 2px solid var(--c-border);
+  color: var(--c-text-muted);
+  font-weight: 600;
 }

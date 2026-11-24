@@ -1,134 +1,60 @@
 .link {
-    text-decoration: none;
-    color: inherit;
-    display: inline-flex;
-}
-
-.disabled {
-    pointer-events: none;
-    opacity: 0.35;
+  display: inline-flex;
+  color: inherit;
+  text-decoration: none;
 }
 
 .btn {
-    box-sizing: border-box;
-    width: 150px;
-    height: 39px;
-    padding: 6px 10px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 14px;
-    position: relative;
-    overflow: hidden;
-
-    /* frosted glass base */
-    background:
-            radial-gradient(
-                    120% 140% at 10% 0%,
-                    color-mix(in srgb, var(--c-surface) 74%, transparent) 0%,
-                    transparent 55%
-            ),
-            radial-gradient(
-                    120% 140% at 90% 100%,
-                    color-mix(in srgb, var(--c-surface-2) 70%, transparent) 0%,
-                    transparent 60%
-            ),
-            linear-gradient(
-                    135deg,
-                    color-mix(in srgb, var(--c-surface) 78%, transparent),
-                    color-mix(in srgb, var(--c-surface-2) 72%, transparent)
-            );
-
-    border: 1px solid color-mix(in srgb, var(--c-border) 70%, transparent);
-
-    /* outer + inner "glass" feel */
-    box-shadow:
-            0 12px 26px var(--c-shadow),
-            inset 0 1px 0 color-mix(in srgb, #fff 55%, transparent),
-            inset 0 -1px 0 color-mix(in srgb, var(--c-border) 55%, transparent);
-
-    backdrop-filter: blur(var(--blur-soft));
-    -webkit-backdrop-filter: blur(var(--blur-soft));
-
-    /* typography polish */
-    letter-spacing: 1px;
-    user-select: none;
-
-    transition:
-            transform 150ms ease,
-            box-shadow 150ms ease,
-            border-color 150ms ease,
-            filter 150ms ease;
-}
-
-/* sheen streak */
-.btn::before {
-    content: "";
-    position: absolute;
-    inset: -40% -60%;
-    background: linear-gradient(
-            120deg,
-            transparent 35%,
-            color-mix(in srgb, #fff 34%, transparent) 45%,
-            transparent 58%
-    );
-    transform: translateX(-25%) rotate(8deg);
-    opacity: 0.7;
-    pointer-events: none;
-    transition: transform 250ms ease, opacity 250ms ease;
-}
-
-/* subtle tinted glow at bottom edge */
-.btn::after {
-    content: "";
-    position: absolute;
-    left: -20%;
-    right: -20%;
-    bottom: -50%;
-    height: 120%;
-    background: radial-gradient(
-            80% 70% at 50% 20%,
-            color-mix(in srgb, var(--c-accent-2) 22%, transparent) 0%,
-            transparent 70%
-    );
-    opacity: 0.55;
-    pointer-events: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  min-width: 108px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  letter-spacing: 0.04em;
+  transition:
+    border-color 140ms ease,
+    background-color 140ms ease;
 }
 
 .link:hover .btn {
-    transform: translateY(-1px);
-    border-color: color-mix(in srgb, var(--c-accent-2) 35%, var(--c-border));
-    box-shadow:
-            0 16px 34px var(--c-shadow),
-            inset 0 1px 0 color-mix(in srgb, #fff 60%, transparent),
-            inset 0 -1px 0 color-mix(in srgb, var(--c-border) 55%, transparent);
-    filter: saturate(1.05);
+  border-color: var(--c-accent-2);
 }
 
-.link:hover .btn::before {
-    transform: translateX(25%) rotate(8deg);
-    opacity: 0.85;
+.link:focus-visible {
+  outline: 2px solid var(--c-accent-2);
+  outline-offset: 3px;
+  border-radius: var(--radius-md);
 }
 
-.link:focus-visible .btn {
-    outline: 2px solid color-mix(in srgb, var(--c-accent) 55%, transparent);
-    outline-offset: 3px;
+.active .btn {
+  border-color: var(--c-nav-active);
+  background: var(--c-nav-active);
+  color: var(--c-on-nav-active);
 }
 
-.link:active .btn {
-    transform: translateY(0px);
-    box-shadow:
-            0 12px 26px var(--c-shadow),
-            inset 0 1px 0 color-mix(in srgb, #fff 50%, transparent),
-            inset 0 -1px 0 color-mix(in srgb, var(--c-border) 60%, transparent);
-    filter: saturate(1.0);
+:global(:root[data-theme="espresso"]) .btn {
+  border-color: color-mix(in srgb, var(--c-border) 75%, var(--c-accent));
+}
+
+:global(:root[data-theme="espresso"]) .active .btn {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c-accent-2) 40%, transparent);
+}
+
+@media (max-width: 900px) {
+  .link,
+  .btn {
+    width: 100%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .btn,
-    .btn::before {
-        transition: none !important;
-    }
+  .btn {
+    transition: none;
+  }
 }

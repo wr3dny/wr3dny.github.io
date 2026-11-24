@@ -1,60 +1,99 @@
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { PATHS } from "../../const/paths.ts";
-import { NavButton } from "./NavButton/NavButton.tsx";
-
-import { NavLogo } from "./NavLogo/NavLogo.tsx";
-
+import { NAV_ITEMS } from "../../const/paths";
+import { ThemeSelector } from "../ThemeSelector/ThemeSelector";
+import { NavButton } from "./NavButton/NavButton";
+import { NavLogo } from "./NavLogo/NavLogo";
 import styles from "./Navbar.module.css";
-import { ThemeToggleButton } from "../ThemeToggleButton/ThemeToggleButton.tsx";
-import { useEffect, useState } from "react";
 
 export const Navbar = () => {
   const location = useLocation();
-
+  const navbarRef = useRef<HTMLElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useLayoutEffect(() => {
+    const navbar = navbarRef.current;
+    if (!navbar) return;
+
+    const root = document.documentElement;
+    const previousHeight = root.style.getPropertyValue("--navbar-height");
+    const updateHeight = () => {
+      root.style.setProperty(
+        "--navbar-height",
+        `${navbar.getBoundingClientRect().height}px`,
+      );
+    };
+
+    updateHeight();
+    if (typeof ResizeObserver === "undefined") {
+      window.addEventListener("resize", updateHeight);
+      return () => {
+        window.removeEventListener("resize", updateHeight);
+        if (previousHeight)
+          root.style.setProperty("--navbar-height", previousHeight);
+        else root.style.removeProperty("--navbar-height");
+      };
+    }
+
+    const observer = new ResizeObserver(updateHeight);
+    observer.observe(navbar);
+    return () => {
+      observer.disconnect();
+      if (previousHeight)
+        root.style.setProperty("--navbar-height", previousHeight);
+      else root.style.removeProperty("--navbar-height");
+    };
+  }, []);
 
   useEffect(() => {
     setIsMenuOpen(false);
   }, [location.pathname]);
 
-  return (
-    <div className={styles.container}>
-      <NavLogo onNavigate={() => setIsMenuOpen(false)} />
-      <div className={styles.actionButtons}>
-        <ThemeToggleButton />
-        <div className={styles.secondLine}>
-          <div className={styles.actions}>
-            <button
-              type="button"
-              className={styles.burger}
-              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-              aria-expanded={isMenuOpen}
-              onClick={() => setIsMenuOpen((v) => !v)}
-            >
-              <span className={styles.burgerIcon} aria-hidden="true" />
-            </button>
-          </div>
-        </div>
-      </div>
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setIsMenuOpen(false);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [isMenuOpen]);
 
-      <div className={styles.firstLine}>
-        <div
-          className={`${styles.navButtons} ${isMenuOpen ? styles.navButtonsOpen : ""}`}
-          role="navigation"
-          aria-label="Primary"
+  return (
+    <header ref={navbarRef} className={styles.container}>
+      <NavLogo onNavigate={() => setIsMenuOpen(false)} />
+      <nav
+        id="primary-navigation"
+        className={`${styles.navigation} ${isMenuOpen ? styles.navigationOpen : ""}`}
+        aria-label="Główna nawigacja"
+      >
+        {NAV_ITEMS.map(({ label, path }) => {
+          const active =
+            location.pathname === path ||
+            location.pathname.startsWith(`${path}/`);
+          return (
+            <NavButton
+              key={path}
+              label={label}
+              to={path}
+              active={active}
+              onNavigate={() => setIsMenuOpen(false)}
+            />
+          );
+        })}
+      </nav>
+      <div className={styles.controls}>
+        <ThemeSelector />
+        <button
+          type="button"
+          className={styles.burger}
+          aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
+          aria-controls="primary-navigation"
+          aria-expanded={isMenuOpen}
+          onClick={() => setIsMenuOpen((open) => !open)}
         >
-          {Object.entries(PATHS)
-            .filter(([, path]) => path !== PATHS.HOME)
-            .map(([name, path]) => (
-              <NavButton
-                key={name}
-                label={name}
-                to={path}
-                disabled={location.pathname === path}
-              />
-            ))}
-        </div>
+          <span className={styles.burgerIcon} aria-hidden="true" />
+        </button>
       </div>
-    </div>
+    </header>
   );
 };

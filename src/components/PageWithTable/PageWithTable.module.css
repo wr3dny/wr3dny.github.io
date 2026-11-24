@@ -1,6 +1,170 @@
 .wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 20px 30px 0 30px;
+  box-sizing: border-box;
+  width: min(100%, 90rem);
+  min-width: 0;
+  margin-inline: auto;
+  padding: 20px clamp(16px, 4vw, 40px) 40px;
+}
+
+.filters {
+  position: sticky;
+  top: var(--navbar-height, 0px);
+  z-index: 900;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px 16px;
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.field {
+  display: grid;
+  flex: 1 1 180px;
+  gap: 6px;
+  min-width: 0;
+  max-width: 240px;
+  font-weight: 600;
+}
+
+.field select,
+.field input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid var(--c-control-border);
+  border-radius: var(--radius-control);
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  font: inherit;
+}
+
+.field small {
+  min-height: 1.2em;
+  color: var(--c-text-muted);
+  font-weight: 400;
+}
+
+.yearGroup + .yearGroup {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 2px solid var(--c-border);
+}
+
+.yearHeading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 12px;
+  color: var(--c-accent);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+}
+
+.yearHeading::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(to right, var(--c-accent), var(--c-border));
+}
+
+.tableScroll {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.tableScroll:focus-visible {
+  outline: 2px solid var(--c-accent-2);
+  outline-offset: 2px;
+}
+
+.noResults {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.modelTable {
+  width: 100%;
+  min-width: 28rem;
+  table-layout: fixed;
+}
+
+.modelTable th,
+.modelTable td {
+  padding: 12px clamp(10px, 2vw, 20px);
+  overflow-wrap: anywhere;
+}
+
+/* Number and scale columns: never break in the middle of a value such as
+   "1:1000" or "11-12". Only the title may wrap anywhere. */
+.modelTable th,
+.modelTable td:nth-child(2) {
+  white-space: nowrap;
+}
+
+.modelTable th:nth-child(-n + 2),
+.modelTable td:nth-child(-n + 2) {
+  overflow-wrap: normal;
+}
+
+.modelTable tbody tr:hover {
+  background: var(--c-surface-2);
+}
+
+:global(:root[data-theme="espresso"]) .filters {
+  border-color: color-mix(in srgb, var(--c-border) 72%, var(--c-accent));
+}
+
+:global(:root[data-theme="espresso"]) .field input,
+:global(:root[data-theme="espresso"]) .field select {
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 3%);
+}
+
+:global(:root[data-theme="espresso"]) .yearHeading {
+  color: var(--c-accent);
+}
+
+/* Phone: the filter panel scrolls away (it is too tall to keep pinned) and
+   the table is squeezed to the screen width so titles need no side scrolling. */
+@media (max-width: 640px) {
+  .wrapper {
+    padding-top: 12px;
+  }
+
+  .field {
+    flex-basis: 140px;
+    max-width: none;
+  }
+
+  .filters {
+    position: static;
+    padding: 10px 12px;
+  }
+
+  .modelTable {
+    min-width: 0;
+  }
+
+  /* Narrower Numer / Skala columns on a phone. !important is needed because
+     the column widths are set inline from Models.tsx. */
+  .modelTable col:nth-child(1) {
+    width: 6rem !important;
+  }
+
+  .modelTable col:nth-child(2) {
+    width: 4.5rem !important;
+  }
+
+  .modelTable th,
+  .modelTable td {
+    padding: 10px 6px;
+  }
 }

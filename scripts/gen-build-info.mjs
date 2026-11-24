@@ -1,26 +1,21 @@
-import { execSync } from "node:child_process";
-import fs from "node:fs";
-import path from "node:path";
+import { execFileSync } from "node:child_process";
+import { mkdirSync, writeFileSync } from "node:fs";
 
-function cmd(command) {
-  return execSync(command, { encoding: "utf8" }).trim();
-}
-
-const commitSha = cmd("git rev-parse HEAD");
-const commitDate = cmd("git log -1 --format=%cI"); // ISO 8601
-const commitMessage = cmd("git log -1 --format=%B").trim();
-
-const payload = {
-  commitSha,
-  commitDate,
-  commitMessage,
+const git = (...args) => {
+  try {
+    return execFileSync("git", args, {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+  } catch {
+    return "";
+  }
 };
 
-const outDir = path.resolve("public");
-fs.mkdirSync(outDir, { recursive: true });
-fs.writeFileSync(
-  path.join(outDir, "build-info.json"),
-  JSON.stringify(payload, null, 2) + "\n",
-);
-
-console.log("Generated public/build-info.json");
+const info = {
+  commitSha: git("rev-parse", "--short", "HEAD"),
+  commitDate: git("log", "-1", "--format=%cI"),
+  commitMessage: git("log", "-1", "--format=%s"),
+};
+mkdirSync("public", { recursive: true });
+writeFileSync("public/build-info.json", JSON.stringify(info, null, 2) + "\n");

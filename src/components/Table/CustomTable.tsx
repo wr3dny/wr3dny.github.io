@@ -1,31 +1,41 @@
+import type { Key } from "react";
+import clsx from "clsx";
+import type { TableColumn, TableRow } from "../../types/table";
 import styles from "./CustomTable.module.css";
 
-export type CellValue = string | number | boolean | null;
-export type TableRow = Record<string, CellValue>;
-
 interface Props {
-  columns: string[];
-  rows: TableRow[];
+  columns: ReadonlyArray<TableColumn>;
+  rows: ReadonlyArray<TableRow>;
+  rowKeys?: ReadonlyArray<Key>;
+  className?: string;
 }
 
-export const CustomTable = ({ columns, rows }: Props) => {
+export const CustomTable = ({ columns, rows, rowKeys, className }: Props) => {
+  const hasFixedWidths = columns.some((column) => column.width !== undefined);
+
   return (
-    <table className={styles.table}>
-      <thead className={styles.header}>
+    <table className={clsx(styles.table, className)}>
+      {hasFixedWidths && (
+        <colgroup>
+          {columns.map((column) => (
+            <col key={column.key} style={{ width: column.width }} />
+          ))}
+        </colgroup>
+      )}
+      <thead>
         <tr>
           {columns.map((column) => (
-            <th key={column} className={styles.thead}>
-              {column}
+            <th key={column.key} scope="col" className={styles.thead}>
+              {column.label}
             </th>
           ))}
         </tr>
       </thead>
-
       <tbody>
-        {rows.map((row, rowIndex) => (
-          <tr key={rowIndex}>
+        {rows.map((row, index) => (
+          <tr key={rowKeys?.[index] ?? index}>
             {columns.map((column) => (
-              <td key={column}>{row[column] ?? ""}</td>
+              <td key={column.key}>{String(row[column.key] ?? "")}</td>
             ))}
           </tr>
         ))}

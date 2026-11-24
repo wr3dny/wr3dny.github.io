@@ -1,145 +1,105 @@
-.link {
-    text-decoration: none;
-    display: inline-flex;
-}
-
 .container {
-    display: flex;
-    width: calc(100% - 20px);
-    margin: 0;
-    padding: 10px ;
-
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px clamp(8px, 2vw, 20px);
+  border-bottom: 1px solid var(--c-border);
+  background: var(--c-surface);
 }
 
-
-.actionButtons {
-    display: flex;
-    gap: 2px;
+.navigation {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
 }
 
-.firstLine, .secondLine {
-    flex: 1 1 auto;
-    min-width: 0;
-
-    display: flex;
-    justify-content: flex-start;
-
-    position: relative;
-}
-
-
-.navButtons {
-    display: flex;
-
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4px;
-}
-
-.actions {
-    display: flex;
+.controls {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
 }
 
 .burger {
-    display: none;
-
-    height: 39px;
-    width: 39px;
-
-    border-radius: 50%;
-    background: linear-gradient(
-            135deg,
-            color-mix(in srgb, var(--c-surface) 62%, transparent),
-            color-mix(in srgb, var(--c-surface-2) 55%, transparent)
-    );
-    border: 1px solid color-mix(in srgb, var(--c-border) 65%, transparent);
-    box-shadow: var(--shadow-soft);
-
-    backdrop-filter: blur(var(--blur-soft));
-    -webkit-backdrop-filter: blur(var(--blur-soft));
-
-    cursor: pointer;
-    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
-}
-
-.burger:hover {
-    border-color: color-mix(in srgb, var(--c-accent-2) 35%, var(--c-border));
-    box-shadow: var(--shadow-elev);
+  display: none;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--c-control-border);
+  border-radius: var(--radius-control);
+  background: var(--c-surface-2);
+  color: var(--c-text);
 }
 
 .burger:focus-visible {
-    outline: 2px solid color-mix(in srgb, var(--c-accent-2) 70%, transparent);
-    outline-offset: 3px;
+  outline: 2px solid var(--c-accent-2);
+  outline-offset: 3px;
 }
 
-.burger:active {
-    transform: translateY(0px);
+.burgerIcon,
+.burgerIcon::before,
+.burgerIcon::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
 }
 
 .burgerIcon {
-    display: inline-block;
-    position: relative;
-    width: 18px;
-    height: 2px;
-    border-radius: 2px;
-    background: color-mix(in srgb, var(--c-text) 80%, transparent);
+  position: relative;
 }
 
 .burgerIcon::before,
 .burgerIcon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 18px;
-    height: 2px;
-    border-radius: 2px;
-    background: color-mix(in srgb, var(--c-text) 80%, transparent);
+  content: "";
+  position: absolute;
+  left: 0;
 }
 
 .burgerIcon::before {
-    top: -6px;
+  top: -6px;
 }
-
 .burgerIcon::after {
-    top: 6px;
+  top: 6px;
 }
 
-@media (max-width: 720px) {
-    .burger {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
+:global(:root[data-theme="espresso"]) .container {
+  border-bottom-color: color-mix(in srgb, var(--c-accent) 30%, var(--c-border));
+  box-shadow: var(--shadow-soft);
+}
 
-    .navButtons {
-        display: none;
-        position: absolute;
-        top: calc(100% + 5px);
-        left: -131px;
+@media (max-width: 900px) {
+  .navigation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 8px;
+    box-sizing: border-box;
+    width: min(230px, calc(100% - 16px));
+    padding: 10px;
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-lg);
+    background: var(--c-surface);
+    box-shadow: var(--shadow-elev);
+  }
 
-        flex-direction: column;
-        align-items: stretch;
-        gap: 8px;
+  .navigationOpen {
+    display: grid;
+  }
 
-        padding: 10px;
-        border-radius: var(--radius-lg);
-        background: linear-gradient(
-                135deg,
-                color-mix(in srgb, var(--c-surface) 58%, transparent),
-                color-mix(in srgb, var(--c-surface-2) 52%, transparent)
-        );
-        border: 1px solid color-mix(in srgb, var(--c-border) 65%, transparent);
-        box-shadow: var(--shadow-elev);
-
-        backdrop-filter: blur(var(--blur-strong));
-        -webkit-backdrop-filter: blur(var(--blur-strong));
-    }
-
-    .navButtonsOpen {
-        display: flex;
-    }
+  .burger {
+    display: inline-flex;
+  }
 }

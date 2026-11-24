@@ -8,10 +8,13 @@ interface Props {
 
 export const NavLogo = ({ onNavigate }: Props) => {
   return (
-    <Link to={"/"} onClick={onNavigate} className={styles.link}>
-      <div className={styles.outer}>
-        <img src={dev404Logo} alt="dev404 logo" className={styles.logo} />
-      </div>
+    <Link
+      to="/"
+      onClick={onNavigate}
+      className={styles.link}
+      aria-label="Collectorium — strona główna"
+    >
+      <img src={dev404Logo} alt="" className={styles.logo} />
     </Link>
   );
 };

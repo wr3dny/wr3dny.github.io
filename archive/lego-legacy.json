@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "year": 2022,
+        "setNumber": 75327,
+        "name": "Luke Skywalker (Red Five) Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 2,
+        "year": 2022,
+        "setNumber": 75343,
+        "name": "Dark Trooper Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 3,
+        "year": 2023,
+        "setNumber": 75349,
+        "name": "Captain Rex Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 4,
+        "year": 2023,
+        "setNumber": 75350,
+        "name": "Clone Commander Cody Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 5,
+        "year": 2025,
+        "setNumber": 75350,
+        "name": "Kylo Ren Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 6,
+        "year": 2025,
+        "setNumber": 75429,
+        "name": "AT-AT Driver Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 7,
+        "year": 2023,
+        "setNumber": 75429,
+        "name": "Princess Leia (Boushh) Helmet",
+        "series": "Star Wars"
+    },
+    {
+        "id": 8,
+        "title": "Orchidea",
+        "year": 2022,
+        "number": 10311,
+        "series": "Icons"
+    },
+    {
+        "id": 9,
+        "title": "Kingfisher Bird",
+        "year": 2024,
+        "number": 10331,
+        "series": "Icons"
+    },
+    {
+        "id": 10,
+        "title": "Plum Blossom",
+        "year": 2024,
+        "number": 10369,
+        "series": "Icons"
+    },
+    {
+        "id": 11,
+        "title": "Elsa and Olaf's Tea Party",
+        "year": 2020,
+        "number": 10920,
+        "series": "Duplo"
+    },
+    {
+        "id": 12,
+        "title": "Family House on Wheels",
+        "year": 2023,
+        "number": 10986,
+        "series": "Duplo"
+    },
+    {
+        "id": 13,
+        "title": "Police Bike",
+        "year": 2011,
+        "number": 5679,
+        "series": "Duplo"
+    },
+    {
+        "id": 14,
+        "title": "Number Train",
+        "year": 2013,
+        "number": 10558,
+        "series": "Duplo"
+    },
+    {
+        "id": 15,
+        "title": "Police Bike",
+        "year": 2011,
+        "number": 5679,
+        "series": "Duplo"
+    }
+]

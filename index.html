@@ -1,13 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl" data-theme="latte">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="src/assets/coffee-dark-svgrepo-com.svg" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="src/assets/coffee-dark-svgrepo-com.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>wrepolis</title>
+    <script>
+      try {
+        const saved = localStorage.getItem("theme");
+        const theme =
+          saved === "latte" || saved === "espresso"
+            ? saved
+            : saved === "night" || saved === "cyberpunk"
+              ? "espresso"
+              : "latte";
+        document.documentElement.dataset.theme = theme;
+      } catch {
+        /* The app falls back to the latte theme. */
+      }
+    </script>
+    <title>Collectorium</title>
   </head>
   <body>
     <div id="root"></div>

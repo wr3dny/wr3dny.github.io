@@ -1,0 +1,6194 @@
+[
+  {
+    "id": 1,
+    "title": "Kuzynki",
+    "originalTitle": null,
+    "worldHero": "Kuzynki Kruszewskie",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Księżniczka",
+    "originalTitle": null,
+    "worldHero": "Kuzynki Kruszewskie",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Dziedziczki",
+    "originalTitle": null,
+    "worldHero": "Kuzynki Kruszewskie",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Zaginiona",
+    "originalTitle": null,
+    "worldHero": "Kuzynki Kruszewskie",
+    "numberInSeries": 4,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Karuzela",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sitwa",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Przekręt",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sargassowa Planeta",
+    "originalTitle": "Sargasso of Space",
+    "worldHero": "Solar Queen",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ogień w jego dłoniach",
+    "originalTitle": "The Fire in His Hands",
+    "worldHero": "Dread Empire",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Nie będzie litości",
+    "originalTitle": "With Mercy Toward None",
+    "worldHero": "Dread Empire",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Wezwanie do broni",
+    "originalTitle": "A Call to Duty",
+    "worldHero": "Honorverse",
+    "numberInSeries": null,
+    "subSeries": "Manticore Ascendant",
+    "numberInSubSeries": 1,
+    "author": "David Weber",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Port umarłych statków",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Klątwa Zarsthorna",
+    "originalTitle": "Zarsthorne Bane",
+    "worldHero": "Witch World",
+    "numberInSeries": null,
+    "subSeries": "High Hallack",
+    "numberInSubSeries": 4,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Sokola Magia",
+    "originalTitle": "Falcon Magic",
+    "worldHero": "Witch World",
+    "numberInSeries": null,
+    "subSeries": "High Hallack",
+    "numberInSubSeries": 4,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Czarne Trilium",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Na skrzydłach magii",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Morska twierdza",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Świat Czarownic",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Na straży świata czarownic",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Wygnanka",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Kryształowy Gryf",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Lampart",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Rok Jednorożca",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Pakt Sokolników",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Korona z jelenich rogów",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Magiczny kamień",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Zamknięcie bram",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Strzeż się sokoła",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Brama kota",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Świat czarownic (drugi?)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Gryf w chwale",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Klucz kaplianów",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Czarodziejka ze świata czarownic",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Troje przeciw Światu czarownic",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Czarodziejskie miecze",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Gniazdo Gryfa",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Świat Czarownic w pułapce",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Czarodziej ze Świata Czarownic",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Krwawe Trilium",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Tkaczka Pieśni",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Pani Trilium",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Złote trilium",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Lodowa korona",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Gwiezdny zwiad",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Wieczna Genevieve",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jack Yeovil",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Magiczne dziecko",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jonathan Wylie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Conan z Cimmerii",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Robert Howard",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Rozbitkowie na Darkoverze",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Marion Zimmer Bradley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "The Adversary",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Annihilation",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": "War of the Spider Queen",
+    "numberInSubSeries": 5,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Avenger",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": "Blades of Moonsea",
+    "numberInSubSeries": 3,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Azure Bonds",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Blackstaff Tower",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": "Waterdeep",
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Brimstone Angels",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Kłamczucha",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Ida sierpniowa",
+    "originalTitle": null,
+    "worldHero": "Jeżycyda",
+    "numberInSeries": 4,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Kwiat kalafiora",
+    "originalTitle": null,
+    "worldHero": "Jeżycyda",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Frywolitki czyli ostatnio przeczytalam książkę",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "McDusia",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 19,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Tygrys i Róża",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 13,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Córka Robrojka",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 11,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Opium w rosole",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 14,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Małomówy i rodzina",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 0,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Dziecko piątku",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 9,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Szósta klepka",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Czarna polewka",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 17,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Nutria i Nerwus",
+    "originalTitle": null,
+    "worldHero": "Jeżycjada",
+    "numberInSeries": 10,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Szatan z siódmej klasy",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Kroniki Jakuba Wędrowycza",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Czarownik Iwanow",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Weźmisz czarno kure...",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Zagadka Kuby Rozpruwacza",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Wieszać każdy może",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Homo bimbrownicus",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Koran Destylator",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Trucizna",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Facet w gumofilcach",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Karpie bijem",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Wojsławicka kosa łańcuchowa",
+    "originalTitle": null,
+    "worldHero": "Jakub Wędrowycz",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andrzej Pilipiuk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Kot, który... (tom 27) (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "L.J. Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Kot, który... (tom 28) (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "L.J. Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Kot, który... (tom 29) (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "L.J. Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Pan Samochodzik i Fantomas",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Pan Samochodzik i Templariusze",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Pan Samochodzik i Święty Relikwiarz",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Pan Samochodzik i Niewidzialni",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Pan Samochodzik i Winnetou",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Pan Samochodzik i Testament rycerza Jędrzeja",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Pan Samochodzik i Tajemnica tajemnic",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Pan Samochodzik i Niesamowity dwór",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Księga strachów",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Złota rękawica",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Mówię: Nienacki? (TODO)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Pan Samochodzik i Twierdza (TODO pełny tytuł)",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Sebastian Miernicki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Pan Samochodzik i Operacja 'Królewnice' (TODO)",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Sebastian Miernicki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Pan Samochodzik i Bractwo rycerskie",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Sebastian Miernicki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Pan Samochodzik (tom 6) (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Pan Samochodzik (tom 12) (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": "Pan Samochodzik",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Hobbit",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "J.R.R. Tolkien",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Tylko dla orłów",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Alistair MacLean",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Morby Peregrinorum",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Zbigniew Nienacki",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Kapitan Fracass",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Théophile Gautier",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Miasto i psy",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Mario Vargas Llosa",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Dracula",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Bram Stoker",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Szaman morski",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "O. Borchardt",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Wiech na 102",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Wiech",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Anno Dracula",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Kim Newman",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Krwawy Baron",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Kim Newman",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Nekroskop",
+    "originalTitle": null,
+    "worldHero": "Nekroskop",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Lumley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Wampiry",
+    "originalTitle": null,
+    "worldHero": "Nekroskop",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Lumley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Źródło",
+    "originalTitle": null,
+    "worldHero": "Nekroskop",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Lumley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Mowa umarłych",
+    "originalTitle": null,
+    "worldHero": "Nekroskop",
+    "numberInSeries": 4,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Lumley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Roznosiciel",
+    "originalTitle": null,
+    "worldHero": "Nekroskop",
+    "numberInSeries": 5,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Lumley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Zimna sprawa",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Kobieta w walizce",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Florystka",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Sprawa Niny Frank",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Tylko martwi nie kłamią",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Do utraty tchu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Portia Da Costa",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Dopóki cię nie zdobędę",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Samantha Hayes",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Cukiernia pod Amorem. Hryciowe",
+    "originalTitle": null,
+    "worldHero": "Cukiernia pod Amorem",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Małgorzata Gutowska-Adamczyk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Cukiernia pod Amorem. Cieślakowie",
+    "originalTitle": null,
+    "worldHero": "Cukiernia pod Amorem",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Małgorzata Gutowska-Adamczyk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Cukiernia pod Amorem. Jedna z nas",
+    "originalTitle": null,
+    "worldHero": "Cukiernia pod Amorem",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Małgorzata Gutowska-Adamczyk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Osiedle Sielanka. Bomba",
+    "originalTitle": null,
+    "worldHero": "Osiedle Sielanka",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Małgorzata Gutowska-Adamczyk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Osiedle Sielanka. Sąsiedzi",
+    "originalTitle": null,
+    "worldHero": "Osiedle Sielanka",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Małgorzata Gutowska-Adamczyk",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Awantura o Basię",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Kornel Makuszyński",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Cafe pod Minogą",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO Wiech",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Der elektronische Jeff (TODO autor)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "german",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Dumb Witness",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Elephants Can Remember",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Third Girl",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Dead Man's Folly",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Cat Among the Pigeons",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "The Big Four",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Black Coffee",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Appointment with Death",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Mrs. McGinty's Dead",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Three Act Tragedy",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "The Clocks",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Tajemnica Błękitnego Konia",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Karty na stół",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Zło z Paddington",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Zbrodnia na festynie",
+    "originalTitle": "Dead Man’s Folly",
+    "worldHero": "Hercules Poirot",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Wczesne sprawy Poirota",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Morderstwo na polu golfowym",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Tajemnica Wawrzynów",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Pasażer do Frankfurtu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Trzy ślepe myszki",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Tajemnica lorda Listerdale'a",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Sprawa świątecznych śladów",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Słońce mając dolce, panie? (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Wczesne sprawy Poirota (wydanie 2)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Dom nad kanałem",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Śmierć na Nilu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Zabójstwo jest (TODO tytuł)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Rozmaryn znaczy pamięć",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Po pogrzebie",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Kot wśród gołębi",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Poirot (TODO tytuł: 'Wczesne sprawy Poirota'?)",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Paprocany",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Chechło",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Sztauwajery",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Occulta",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Incognito",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Oblitus",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Bestseller",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Debiut",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Plagiat",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Maścieżyko",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Paulina Świst",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Tata Tadzika",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Maciej Stuhr",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Nikt nie musi wiedzieć",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Kotka dla nieboszczyka",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Lampiony",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Miłość czyni dobrym",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Miłość leczy rany",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Katarzyna Bonda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Porwanie",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Biblia na kacu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Pan Grappa 148",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Czarny TODO",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Sarkofag",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Swat",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Wujaszek",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Bohomaz",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Razy dwa",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Zemsta",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Dragonlance Saga: Kroniki (Tom 1)",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Dragonlance Saga: Kroniki (Tom 2)",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Dragonlance Saga: Kroniki (Tom 3)",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Dragonlance Saga: Kroniki (Tom 4)",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": 4,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Dragonlance Saga: Legendy (Tom 1) — Czas bliźniaków",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": null,
+    "subSeries": "Legends",
+    "numberInSubSeries": 1,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Dragonlance Saga: Legendy (Tom 2) — Wojna bliźniaków",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": null,
+    "subSeries": "Legends",
+    "numberInSubSeries": 2,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Dragonlance Saga: Legendy (Tom 3) — Próba bliźniaków",
+    "originalTitle": null,
+    "worldHero": "Dragonlance Saga",
+    "numberInSeries": null,
+    "subSeries": "Legends",
+    "numberInSubSeries": 3,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Kryształowy Relikt",
+    "originalTitle": "The Crystal Shard",
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": "The Icewind Dale Trilogy",
+    "numberInSubSeries": 1,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Strumienie Srebra",
+    "originalTitle": "Streams of Silver",
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": "The Icewind Dale Trilogy",
+    "numberInSubSeries": 2,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Klejnot Halflinga",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": "The Icewind Dale Trilogy",
+    "numberInSubSeries": 3,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Krainy Podmroku",
+    "originalTitle": null,
+    "worldHero": "Forgotten Realms",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Legacies of Betrayal",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "TODO TODO",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Scars",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Chris Wraight",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Old Earth",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40.000",
+    "numberInSeries": null,
+    "subSeries": "The Horus Heresy",
+    "numberInSubSeries": null,
+    "author": "Nick Kyme",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Garro",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "James Swallow",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "title": "The Primarchs",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Edited by Christian Dunn",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title": "The Crimson King",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Graham McNeill",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "title": "The Unremembered Empire",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dan Abnett",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Praetorian of Dorn",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "John French",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Ruinstorm",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "David Annandale",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Eye of Terra",
+    "originalTitle": null,
+    "worldHero": "The Horus Heresy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Edited by Laurie Goulding",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Gevatter Tod / Pyramiden",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "german",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Das Erbe des Zauberers / Der Zauberhut",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "german",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Intensity",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Strangers",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "title": "The Face",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Forever Odd",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Chase",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Fear Nothing",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Hideaway",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Dean Koontz",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "title": "Kolor magii",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Blask fantastyczny",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Równoumagicznienie",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Mort",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 4,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Czarodzicielstwo",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 5,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "title": "Trzy wiedźmy",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 6,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Piramidy",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 7,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Straż! Straż!",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 8,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Eryk",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 9,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "title": "Ruchome obrazki",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 10,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "title": "Kosiarz",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 11,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Wyprawa czarownic",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 12,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Pomniejsze bóstwa",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 13,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Panowie i damy",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 14,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Zbrojni",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 15,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "title": "Muzyka duszy",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 16,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Ciężkie czasy",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 17,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "title": "Maskarada",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 18,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "title": "Na glinianych nogach",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 19,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "title": "Wiedźmikołaj",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 20,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "title": "Ostatni kontynent",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 22,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "title": "Carpe Jugulum",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 23,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Piąty elefant",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 24,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "title": "Prawda",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 25,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "title": "Złodziej czasu",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 26,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "title": "Straż nocna",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 29,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "title": "Potworny regiment",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 31,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "title": "Piekło pocztowe",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 33,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "title": "Łups!",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 34,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "title": "Świat finansjery",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 36,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "title": "Niewidoczni akademicy",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 37,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "title": "Para w ruch",
+    "originalTitle": null,
+    "worldHero": "Świat Dysku",
+    "numberInSeries": 40,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Terry Pratchett",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "title": "Kara dla śpiącej królewny",
+    "originalTitle": null,
+    "worldHero": "Śpiąca Królewna",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Anne Rice",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "title": "Wyzwolenie śpiącej królewny",
+    "originalTitle": null,
+    "worldHero": "Śpiąca Królewna",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Anne Rice",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "title": "Obietnice po zmierzchu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Sadie Matthews",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "title": "Sekrety po zmierzchu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Sadie Matthews",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "title": "Nikt nie widział, nikt nie słyszał...",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Małgorzata Warda",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "title": "Pokolenie IKEA",
+    "originalTitle": null,
+    "worldHero": "Pokolenie IKEA",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Piotr C",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "title": "Pokolenie IKEA Kobiety",
+    "originalTitle": null,
+    "worldHero": "Pokolenie IKEA",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Piotr C",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "title": "The Appeal",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "John Grisham",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "title": "Okrutny wiatr",
+    "originalTitle": null,
+    "worldHero": "Kroniki Imperium Grozy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "title": "Imperium Nieznające Porażki",
+    "originalTitle": null,
+    "worldHero": "Kroniki Imperium Grozy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "title": "Droga Zimnego Serca",
+    "originalTitle": null,
+    "worldHero": "Kroniki Imperium Grozy",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "title": "Kroniki Czarnej Kompanii",
+    "originalTitle": null,
+    "worldHero": "Czarna Kompania",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "title": "Port cieni",
+    "originalTitle": null,
+    "worldHero": "Czarna Kompania",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "title": "Księgi Południa",
+    "originalTitle": null,
+    "worldHero": "Czarna Kompania",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "title": "Powrót Czarnej Kompanii",
+    "originalTitle": null,
+    "worldHero": "Czarna Kompania",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "title": "Zagłada Czarnej Kompanii",
+    "originalTitle": null,
+    "worldHero": "Czarna Kompania",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Glen Cook",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "title": "Wojna Makowa",
+    "originalTitle": null,
+    "worldHero": "Trylogia Wojen Makowych",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Kuang",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "title": "Republika Smoka",
+    "originalTitle": null,
+    "worldHero": "Trylogia Wojen Makowych",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Kuang",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "title": "Płonący Bóg",
+    "originalTitle": null,
+    "worldHero": "Trylogia Wojen Makowych",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Kuang",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "title": "Babel",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Kuang",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "title": "Fourth Wing",
+    "originalTitle": null,
+    "worldHero": "The Empyrean",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Yarros",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "title": "Iron Flame",
+    "originalTitle": null,
+    "worldHero": "The Empyrean",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Yarros",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "title": "Onyx Storm",
+    "originalTitle": null,
+    "worldHero": "The Empyrean",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Rebecca Yarros",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "title": "Dotknięcie mroku",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Laurell Hamilton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "title": "Sensacje XX wieku",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Bogusław Wołoszański",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "title": "Tajna wojna Hitlera",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Bogusław Wołoszański",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "title": "Boginie",
+    "originalTitle": "The Maidens",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Alex Michaelides",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "title": "Cienie Nocnego Targu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Clare Rees Brennan",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "title": "Czaszkowiercy",
+    "originalTitle": null,
+    "worldHero": "Kroniki Niewyciosanego Tronu",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Staveley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "title": "Miecze Cesarza",
+    "originalTitle": null,
+    "worldHero": "Kroniki Niewyciosanego Tronu",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Staveley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "title": "Boski Ogień",
+    "originalTitle": null,
+    "worldHero": "Kroniki Niewyciosanego Tronu",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Staveley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "title": "Ostatnia Więź",
+    "originalTitle": null,
+    "worldHero": "Kroniki Niewyciosanego Tronu",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Brian Staveley",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "title": "Paragraf 22",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Joseph Heller",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "title": "Popiół i diament",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jerzy Andrzejewski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "title": "Egipcjanin Sinuhe",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Mika Waltari",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "title": "The Lord of the Rings",
+    "originalTitle": null,
+    "worldHero": "Middle-earth",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "J.R.R. Tolkien",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "title": "Dlaczego nie Evans?",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "title": "Godzina zero",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "title": "Niedziela na wsi",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "title": "Świadek oskarżenia",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "title": "Noc i ciemność",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "title": "Tajemnica Sittaford",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "title": "Wielka Czwórka",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "title": "Zagadka Błękitnego Expressu",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "title": "Mitologia",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jan Parandowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "title": "Morderstwo to nic trudnego",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "title": "Mężczyzna w brązowym garniturze",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Agatha Christie",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "title": "Kot, który czytał wspak",
+    "originalTitle": "The Cat Who Could Read Backwards",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 1,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "title": "Kot, który jadał wełnę",
+    "originalTitle": "The Cat Who Ate Danish Modern",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "title": "Kot, który się włączał i wyłączał",
+    "originalTitle": "The Cat Who Turned On and Off",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 3,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "title": "Kot, który nie polubił czerwieni",
+    "originalTitle": "The Cat Who Saw Red",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 4,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "title": "Kot, który lubił Brahmsa",
+    "originalTitle": "The Cat Who Played Brahms",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 5,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "title": "Kot, który bawił się w listonosza",
+    "originalTitle": "The Cat Who Played Post Office",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 6,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "title": "Kot, który znał Szekspira",
+    "originalTitle": "The Cat Who Knew Shakespeare",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 7,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "title": "Kot, który wąchał klej",
+    "originalTitle": "The Cat Who Sniffed Glue",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 8,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "title": "Kot, który zszedł pod podłogę",
+    "originalTitle": "The Cat Who Went Underground",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 9,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "title": "Kot, który rozmawiał z duchami",
+    "originalTitle": "The Cat Who Talked to Ghosts",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 10,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "title": "Kot, który mieszkał wysoko",
+    "originalTitle": "The Cat Who Lived High",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 11,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "title": "Kot, który znał kardynała",
+    "originalTitle": "The Cat Who Knew A Cardinal",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 12,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "title": "Kot, który poruszył górę",
+    "originalTitle": "The Cat Who Moved a Mountain",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 13,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "title": "Kot, którego tam nie było",
+    "originalTitle": "The Cat Who Wasn't There",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 14,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "title": "Kot, który myszkował w szafach",
+    "originalTitle": "The Cat Who Went into the Closet",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 15,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "title": "Kot, który przyszedł na śniadanie",
+    "originalTitle": "The Cat Who Came to Breakfast",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 16,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "title": "Kot, który pchnął śledztwo na właściwe tory",
+    "originalTitle": "The Cat Who Blew the Whistle",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 17,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "title": "Kot, który lubił sery",
+    "originalTitle": "The Cat Who Said Cheese",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 18,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "title": "Kot, który tropił złodzieja",
+    "originalTitle": "The Cat Who Tailed a Thief",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 19,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "title": "Kot, który przedrzeźniał ptaki",
+    "originalTitle": "The Cat Who Sang for the Birds",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 20,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "title": "Kot, który patrzył w gwiazdy",
+    "originalTitle": "The Cat Who Saw Stars",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 21,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "title": "Kot, który obrabował skarbonkę",
+    "originalTitle": "The Cat Who Robbed a Bank",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 22,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "title": "Kot, który wyczuł pismo nosem",
+    "originalTitle": "The Cat Who Smelled a Rat",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 23,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "title": "Kot, którego nurtował strumień",
+    "originalTitle": "The Cat Who Went up the Creek",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 24,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "title": "Kot, który się publiczności nie kłaniał",
+    "originalTitle": "The Cat Who Brought Down the House",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 25,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "title": "Kot, który mówił po indyczemu",
+    "originalTitle": "The Cat Who Talked Turkey",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 26,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "title": "Kot, który wykradał banany",
+    "originalTitle": "The Cat Who Went Bananas",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 27,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "title": "Kot, który spuścił bombę",
+    "originalTitle": "The Cat Who Dropped a Bombshell",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 28,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "title": "Kot, który miał 60 wąsów",
+    "originalTitle": "The Cat Who Had 60 Whiskers",
+    "worldHero": "The Cat Who...",
+    "numberInSeries": 29,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Lilian Jackson Braun",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "title": "The End And The Death Volume I",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40.000",
+    "numberInSeries": null,
+    "subSeries": "Horus Heresy - Siege of Terra",
+    "numberInSubSeries": 8,
+    "author": "Dan Abnett",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "title": "Helion Rain",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40.000",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "George Mann",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "audiobook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "title": "Hunter's Moon",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40.000",
+    "numberInSeries": null,
+    "subSeries": "Horus Heresy",
+    "numberInSubSeries": null,
+    "author": "Guy Haley",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "audiobook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "title": "Grzechy Imperium",
+    "originalTitle": "Sins of Empire",
+    "worldHero": "Sins of Empire",
+    "numberInSeries": null,
+    "subSeries": "Gods of Blood and Powder",
+    "numberInSubSeries": 1,
+    "author": "Brian McClellan",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "title": "Gniew Imperium",
+    "originalTitle": "Wrath of Empire",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": "Gods of Blood and Powder",
+    "numberInSubSeries": 2,
+    "author": "Bian McClellan",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "title": "Krew Imperium",
+    "originalTitle": "Blood of Empire",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": "Gods of Blood and Powder",
+    "numberInSubSeries": 3,
+    "author": "Brian McClellan",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "title": "Czworo ze Świata Czarownic",
+    "originalTitle": "Four from the Witch World",
+    "worldHero": "Witch World",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "title": "Wspaniały",
+    "originalTitle": "The Grand Design",
+    "worldHero": "Tyrants & Kings",
+    "numberInSeries": 2,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "John Marco",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "title": "Ukryty świat",
+    "originalTitle": "The Shrouded Realm",
+    "worldHero": "Dragonrealm",
+    "numberInSeries": null,
+    "subSeries": "Origins",
+    "numberInSubSeries": 1,
+    "author": "Richard A. Knaak",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "title": "Efekt Łazarza",
+    "originalTitle": "The Lazarus Effect",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": "The Pandora Sequence",
+    "numberInSubSeries": 2,
+    "author": "Frank Herbert",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "title": "Czarny Zamek",
+    "originalTitle": "The Black Castle",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Leslie Daniels",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "title": "Bramy w piasku",
+    "originalTitle": "Doorways in Sand",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Roger Zelazny",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "title": "Galaktyczni rozbitkowie",
+    "originalTitle": "Galactic Derelict",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": "Time Traders / Ross Murdock",
+    "numberInSubSeries": 2,
+    "author": "Andre Norton",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "title": "Tajemnica Ziguratu",
+    "originalTitle": "The Verdant Passage",
+    "worldHero": "Dungeons & Dragons",
+    "numberInSeries": null,
+    "subSeries": "Dark Sun: Prism Pentad",
+    "numberInSubSeries": 1,
+    "author": "Troy Denning",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "title": "Dzieci Damii",
+    "originalTitle": "Damia's Children",
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": "The Tower and the Hive",
+    "numberInSubSeries": 3,
+    "author": "Anne McCaffrey",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "title": "Opowieść Wigilijna",
+    "originalTitle": null,
+    "worldHero": "Zuzanna Lewandowska",
+    "numberInSeries": 14,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Jacek Ostrowski",
+    "editions": [
+      {
+        "language": "polish",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "title": "The Founding: A Gaunt's Ghosts Omnibus",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40k",
+    "numberInSeries": null,
+    "subSeries": "Gaunt's Ghosts",
+    "numberInSubSeries": null,
+    "author": "Dan Abnett",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "paperback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "title": "Angels of Darkness",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40.000",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "Gav Thorpe",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "title": "The Air War",
+    "originalTitle": null,
+    "worldHero": null,
+    "numberInSeries": null,
+    "subSeries": "Shadows of the Apt",
+    "numberInSubSeries": 8,
+    "author": "Adrian Tchaikovsky",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "title": "Ahriman: Exile",
+    "originalTitle": null,
+    "worldHero": "Warhammer 40.000",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "John French",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "title": "A Dynasty of Monsters",
+    "originalTitle": null,
+    "worldHero": "Warhammer Age of Sigmar",
+    "numberInSeries": null,
+    "subSeries": null,
+    "numberInSubSeries": null,
+    "author": "David Annandale Annandale",
+    "editions": [
+      {
+        "language": "english",
+        "formats": [
+          "ebook"
+        ]
+      }
+    ]
+  }
+]
