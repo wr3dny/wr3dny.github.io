@@ -23,24 +23,14 @@ export const LegoWishlist: LegoSet[] = [
     series: "Icons",
   },
   {
-    setNumber: 11504,
+    setNumber: 11379,
     year: 2026,
-    price: 147,
-    url: "https://zklockow.pl/lego-11504-botanicals-skrzydlokwiat",
+    price: 389,
+    url: "https://zklockow.pl/lego-11379-icons-book-nook-ksiegarnia",
     image:
-      "https://zklockow.pl/img/960/lego-botanicals-11504-skrzydlokwiat-1.jpg",
-    alt: "LEGO Botanicals Skrzydłokwiat",
-    series: "Botanicals",
-  },
-  {
-    setNumber: 21063,
-    year: 2025,
-    price: 783,
-    url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
-    image:
-      "https://zklockow.pl/img/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
-    alt: "LEGO Architecture Zamek Neuschwanstein",
-    series: "Architecture",
+      "https://zklockow.pl/img/960/lego-icons-11379-book-nook-ksiegarnia-1.jpg",
+    alt: "LEGO Bookstore",
+    series: "Icons",
   },
   {
     setNumber: 11376,
