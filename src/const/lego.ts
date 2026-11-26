@@ -15,7 +15,7 @@ export const LegoWishlist: LegoSet[] = [
   {
     setNumber: 10357,
     year: 2025,
-    price: 669,
+    price: 498,
     url: "https://zklockow.pl/lego-10357-icons-shelby-cobra-427-s-c",
     image:
       "https://zklockow.pl/img/960/lego-icons-10357-shelby-cobra-427-s-c-1.jpg",
@@ -25,7 +25,7 @@ export const LegoWishlist: LegoSet[] = [
   {
     setNumber: 11504,
     year: 2026,
-    price: 239,
+    price: 147,
     url: "https://zklockow.pl/lego-11504-botanicals-skrzydlokwiat",
     image:
       "https://zklockow.pl/img/960/lego-botanicals-11504-skrzydlokwiat-1.jpg",
@@ -35,7 +35,7 @@ export const LegoWishlist: LegoSet[] = [
   {
     setNumber: 21063,
     year: 2025,
-    price: 838,
+    price: 783,
     url: "https://zklockow.pl/lego-21063-architecture-zamek-neuschwanstein",
     image:
       "https://zklockow.pl/img/lego-architecture-21063-zamek-neuschwanstein-1.jpg",
@@ -43,22 +43,21 @@ export const LegoWishlist: LegoSet[] = [
     series: "Architecture",
   },
   {
-    setNumber: 11373,
-    year: 2026,
-    price: 299,
-    url: "https://zklockow.pl/lego-11373-icons-wladca-pierscieni-helm-saurona",
-    image:
-      "https://zklockow.pl/img/960/lego-icons-11373-wladca-pierscieni-helm-saurona-1.jpg",
-    alt: "LEGO Icons Hełm Saurona",
-    series: "Icons",
-  },
-  {
     setNumber: 11376,
     year: 2026,
-    price: 449,
+    price: 473,
     url: "https://zklockow.pl/lego-11376-icons-ford-model-t",
     image: "https://zklockow.pl/img/960/lego-icons-11376-ford-model-t-1.jpg",
     alt: "LEGO Icons Ford Model T",
+    series: "Icons",
+  },
+  {
+    setNumber: 11381,
+    year: 2026,
+    price: 439,
+    url: "https://zklockow.pl/lego-11381-icons-jaguar-e-type",
+    image: "https://zklockow.pl/img/960/lego-icons-11381-jaguar-e-type-1.jpg",
+    alt: "LEGO Icons Jaguar E-Type",
     series: "Icons",
   },
 ];
